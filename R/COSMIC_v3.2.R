@@ -2,7 +2,7 @@
 #' Cancer, (v3.2 - March 2021)
 #'
 #' @source Files downloaded from
-#'   \url{https://cancer.sanger.ac.uk/signatures/downloads/}, 2021 Sep and
+#'   \url{https://cancer.sanger.ac.uk/signatures/downloads/}, 2021 Oct and
 #'   saved in \code{data-raw/COSMIC_v3.2/data/}. \cr Populated by
 #'   \code{data-raw/COSMIC_v3.2/code/generate_COSMIC_v3.2_data.R}.
 #'
@@ -41,5 +41,5 @@
 #' @md
 #'
 #' @examples
-#' SBS96_sigs <- COSMIC_v3.2$signature$genome$SBS96
+#' COSMIC_v3.2_SBS96_sigs <- COSMIC_v3.2$signature$genome$SBS96
 "COSMIC_v3.2"

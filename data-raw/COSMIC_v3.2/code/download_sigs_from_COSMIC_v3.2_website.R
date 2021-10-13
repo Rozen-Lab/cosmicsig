@@ -1,17 +1,20 @@
 # Source this file from cosmicsig package root
 cat(getwd(), "\n")
 
-# Download SBS96 signatures from COSMIC v3.2 website
+# Download COSMIC v3.2 SBS96 signatures from COSMIC download website
+# (https://cancer.sanger.ac.uk/signatures/downloads/)
 download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/452/COSMIC_v3.2_SBS_GRCh37.txt",
               destfile = "./data-raw/COSMIC_v3.2/data/COSMIC_v3.2_SBS_GRCh37.txt",
               quiet = TRUE)
 
-# Download DBS78 signatures from COSMIC v3.2 website
+# Download COSMIC v3.2 DBS78 signatures from COSMIC download website
+# (https://cancer.sanger.ac.uk/signatures/downloads/)
 download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/446/COSMIC_v3.2_DBS_GRCh37.txt",
               destfile = "./data-raw/COSMIC_v3.2/data/COSMIC_v3.2_DBS_GRCh37.txt",
               quiet = TRUE)
 
-# Download ID signatures from COSMIC v3.2 website
+# Download COSMIC v3.2 ID signatures from COSMIC download website
+# (https://cancer.sanger.ac.uk/signatures/downloads/)
 download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/451/COSMIC_v3.2_ID_GRCh37.txt",
               destfile = "./data-raw/COSMIC_v3.2/data/COSMIC_v3.2_ID_GRCh37.txt",
               quiet = TRUE)
