@@ -4,6 +4,8 @@
 # cosmicsig
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Rozen-Lab/cosmicsig/workflows/R-CMD-check/badge.svg)](https://github.com/Rozen-Lab/cosmicsig/actions)
 <!-- badges: end -->
 
 ## Purpose
