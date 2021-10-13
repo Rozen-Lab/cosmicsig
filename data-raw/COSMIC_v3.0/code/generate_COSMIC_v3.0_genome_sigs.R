@@ -28,19 +28,10 @@ ID.sigs.GRCh37 <-
                      region = "genome")
 attr(ID.sigs.GRCh37, "ref.genome") <- NULL
 
-# Generate SBS192 signatures
-SBS192.sigs.GRCh37 <-
-  ICAMS::ReadCatalog("./data-raw/COSMIC_v3.0/data/sigProfiler_TSB_signatures.csv",
-                     ref.genome = "GRCh37",
-                     catalog.type = "counts.signature",
-                     region = "transcript")
-attr(SBS192.sigs.GRCh37, "ref.genome") <- NULL
-
 # Put all the signatures inside a list
 COSMIC_v3.0 <- list()
 
 COSMIC_v3.0$signature$genome <- list(SBS96 = SBS96.sigs.GRCh37,
-                                     SBS192 = SBS192.sigs.GRCh37,
                                      DBS78 = DBS78.sigs.GRCh37,
                                      ID = ID.sigs.GRCh37)
 
