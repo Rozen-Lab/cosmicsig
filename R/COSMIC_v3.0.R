@@ -11,7 +11,6 @@
 #' * \code{signature} is a list with one element:
 #'      + \code{genome}: A list with the elements:
 #'         - \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-#'         - \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
 #'         - \code{DBS78}: Strand-agnostic doublet-base substitutions.
 #'         - \code{ID}: Strand-agnostic indels.
 #'

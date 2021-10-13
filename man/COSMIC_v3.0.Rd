@@ -13,7 +13,6 @@ A list with one element \code{signature}.
 \item \code{genome}: A list with the elements:
 \itemize{
 \item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-\item \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
 \item \code{DBS78}: Strand-agnostic doublet-base substitutions.
 \item \code{ID}: Strand-agnostic indels.
 }
