@@ -65,7 +65,7 @@ if (!requireNamespace("ICAMS", quietly = TRUE)) {
   install.packages("ICAMS")
 }
 library(ICAMS)
-SBS96_sigs_GRCh38_genome <- signature$SBS96
+SBS96_sigs_GRCh38_genome <- COSMIC_v3.2$signature$SBS96
 
 # Transform SBS96 GRCh38 genome signatures to GRCh38 exome signatures
 SBS96_sigs_GRCh38_exome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
