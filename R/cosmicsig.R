@@ -5,7 +5,7 @@
 #' This is a data package with 2 main package variables:
 #' \code{\link{signature}} and \code{\link{etiology}}.
 #'
-#' There are also several functions for handling COSMIC signatures:
+#' There are also two functions for handling COSMIC signatures:
 #'
 #' * \code{\link{get_etiology}}
 #'

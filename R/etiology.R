@@ -14,7 +14,7 @@
 #' etiology.
 #'
 #' In general use \code{\link{get_etiology}}, which handles new
-#' signatures without elements in \code{etiology}.
+#' signatures do not have an element in \code{etiology}.
 #' @name etiology
 #'
 #' @md

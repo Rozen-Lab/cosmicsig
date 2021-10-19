@@ -15,7 +15,7 @@ This is a data package with 2 main package variables:
 \code{\link{signature}} and \code{\link{etiology}}.
 }
 \details{
-There are also several functions for handling COSMIC signatures:
+There are also two functions for handling COSMIC signatures:
 \itemize{
 \item \code{\link{get_etiology}}
 \item \code{\link{SBS96_ID_to_SBS192_ID}}

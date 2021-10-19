@@ -19,7 +19,7 @@ IDs and values being a short character string description of the proposed
 etiology.
 
 In general use \code{\link{get_etiology}}, which handles new
-signatures without elements in \code{etiology}.
+signatures do not have an element in \code{etiology}.
 }
 \usage{
 etiology

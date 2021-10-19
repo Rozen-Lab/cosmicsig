@@ -3,14 +3,14 @@ cat(getwd(), "\n")
 
 # Download COSMIC v3.2 SBS96 signatures from COSMIC download website
 # (https://cancer.sanger.ac.uk/signatures/downloads/)
-download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/452/COSMIC_v3.2_SBS_GRCh37.txt",
-              destfile = "./data-raw/COSMIC_v3.2/data/COSMIC_v3.2_SBS_GRCh37.txt",
+download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/453/COSMIC_v3.2_SBS_GRCh38.txt",
+              destfile = "./data-raw/COSMIC_v3.2/data/COSMIC_v3.2_SBS_GRCh38.txt",
               quiet = TRUE)
 
 # Download COSMIC v3.2 DBS78 signatures from COSMIC download website
 # (https://cancer.sanger.ac.uk/signatures/downloads/)
-download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/446/COSMIC_v3.2_DBS_GRCh37.txt",
-              destfile = "./data-raw/COSMIC_v3.2/data/COSMIC_v3.2_DBS_GRCh37.txt",
+download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/447/COSMIC_v3.2_DBS_GRCh38.txt",
+              destfile = "./data-raw/COSMIC_v3.2/data/COSMIC_v3.2_DBS_GRCh38.txt",
               quiet = TRUE)
 
 # Download COSMIC v3.2 ID signatures from COSMIC download website
