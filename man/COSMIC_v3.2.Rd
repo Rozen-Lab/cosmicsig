@@ -8,15 +8,12 @@ Cancer, (v3.2 - March 2021)}
 \format{
 A list with two elements, \code{signature} and \code{etiology}.
 \itemize{
-\item \code{signature} is a list with one element:
-\itemize{
-\item \code{genome}: A list with the elements:
+\item \code{signature} is a list with the elements:
 \itemize{
 \item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
 \item \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
 \item \code{DBS78}: Strand-agnostic doublet-base substitutions.
 \item \code{ID}: Strand-agnostic indels.
-}
 }
 \item \code{etiology} is a list with elements:
 \itemize{
@@ -35,10 +32,7 @@ signatures without elements in \code{etiology}.
 }
 }
 \source{
-Files downloaded from
-\url{https://cancer.sanger.ac.uk/signatures/downloads/}, 2021 Oct and
-saved in \code{data-raw/COSMIC_v3.2/data/}. \cr Populated by
-\code{data-raw/COSMIC_v3.2/code/generate_COSMIC_v3.2_data.R}.
+\url{https://cancer.sanger.ac.uk/signatures/downloads/}.
 }
 \usage{
 COSMIC_v3.2
@@ -49,7 +43,9 @@ Cancer, (v3.2 - March 2021)
 }
 \section{Remark}{
 
-The signatures are all from Human GRCh37 reference genome.
+\code{SBS96} and \code{DBS78} signatures are from Human \strong{GRCh38} reference genome.
+\code{SBS192} and \code{ID} signatures are from Human \strong{GRCh37} reference genome.
+See \link[ICAMS]{CatalogRowOrder} for the classification of mutation types.
 }
 
 \section{Note}{
@@ -60,6 +56,27 @@ added in COSMIC v3.2. See the news from COSMIC release for more details
 }
 
 \examples{
-COSMIC_v3.2_SBS96_sigs <- COSMIC_v3.2$signature$genome$SBS96
+# As the abundances of the source sequence of the mutations vary between genome
+# and exome and between species, users can use ICAMS to do the transformations.
+if (!requireNamespace("ICAMS", quietly = TRUE)) {
+  install.packages("ICAMS")
+}
+library(ICAMS)
+SBS96_sigs_GRCh38_genome <- COSMIC_v3.2$signature$SBS96
+
+# Transform SBS96 GRCh38 genome signatures to GRCh38 exome signatures
+SBS96_sigs_GRCh38_exome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
+                                            target.ref.genome = "GRCh38",
+                                            target.region = "exome")
+
+# Transform SBS96 GRCh38 genome signatures to GRCh37 genome signatures
+SBS96_sigs_GRCh37_genome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
+                                             target.ref.genome = "GRCh37",
+                                             target.region = "genome")
+
+# Transform SBS96 GRCh38 genome signatures to mm10 genome signatures
+SBS96_sigs_mm10_genome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
+                                           target.ref.genome = "mm10",
+                                           target.region = "genome")
 }
 \keyword{datasets}

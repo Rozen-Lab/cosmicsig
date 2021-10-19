@@ -6,16 +6,16 @@ library(ICAMS)
 
 # Generate SBS96 signatures
 SBS96.sigs.GRCh37 <-
-  ICAMS::ReadCatalog(file = "./data-raw/COSMIC_v3.1/data/COSMIC_v3.1_SBS_GRCh37.txt",
-                     ref.genome = "GRCh37",
+  ICAMS::ReadCatalog(file = "./data-raw/COSMIC_v3.1/data/COSMIC_v3.1_SBS_GRCh38.txt",
+                     ref.genome = "GRCh38",
                      catalog.type = "counts.signature",
                      region = "genome")
 attr(SBS96.sigs.GRCh37, "ref.genome") <- NULL
 
 # Generate DBS78 signatures
 DBS78.sigs.GRCh37 <-
-  ICAMS::ReadCatalog(file = "./data-raw/COSMIC_v3.1/data/COSMIC_v3.1_DBS_GRCh37.txt",
-                     ref.genome = "GRCh37",
+  ICAMS::ReadCatalog(file = "./data-raw/COSMIC_v3.1/data/COSMIC_v3.1_DBS_GRCh38.txt",
+                     ref.genome = "GRCh38",
                      catalog.type = "counts.signature",
                      region = "genome")
 attr(DBS78.sigs.GRCh37, "ref.genome") <- NULL
@@ -65,9 +65,9 @@ SBS192.sigs.GRCh37 <-
 # Put all the signatures inside a list
 COSMIC_v3.1 <- list()
 
-COSMIC_v3.1$signature$genome <- list(SBS96 = SBS96.sigs.GRCh37,
-                                     SBS192 = SBS192.sigs.GRCh37,
-                                     DBS78 = DBS78.sigs.GRCh37,
-                                     ID = ID.sigs.GRCh37)
+COSMIC_v3.1$signature <- list(SBS96 = SBS96.sigs.GRCh37,
+                              SBS192 = SBS192.sigs.GRCh37,
+                              DBS78 = DBS78.sigs.GRCh37,
+                              ID = ID.sigs.GRCh37)
 
 usethis::use_data(COSMIC_v3.1, overwrite = TRUE)
