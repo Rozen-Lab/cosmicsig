@@ -14,7 +14,10 @@ Character vector of corresponding SBS192 signature IDs; some
 have "-E" (for exome) post-pended.
 }
 \description{
-Translate SBS96 signature IDs to SBS192 signature IDs by adding "-E" if necessary
+"-E" added to the name of a transcriptional strand bias
+signature indicates that it was extracted only from exome sequencing data,
+and thus reflects transcriptional strand bias in the exome rather than in
+the entire transcript, including introns.
 }
 \examples{
 SBS96_ids <- c("SBS1", "SBS23", "SBS25")

@@ -1,5 +1,10 @@
 #' Translate SBS96 signature IDs to SBS192 signature IDs by adding "-E" if necessary
 #'
+#' @description "-E" added to the name of a transcriptional strand bias
+#'   signature indicates that it was extracted only from exome sequencing data,
+#'   and thus reflects transcriptional strand bias in the exome rather than in
+#'   the entire transcript, including introns.
+#'
 #' @param sig_ids Character vector of SBS96 signature IDs.
 #'
 #' @export
