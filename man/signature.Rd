@@ -6,20 +6,14 @@
 \title{Mutational signatures data from COSMIC, the Catalogue Of Somatic Mutations In
 Cancer (v3.2 - March 2021)}
 \format{
-A list with a single element, \code{genome}, which is a
-list containing:
-\describe{
-\item{SBS96}{Strand-agnostic single-base substitutions in trinucleotide context.}
-\item{SBS192}{Transcriptionally stranded single-base substitutions in trinucleotide context.}
-\item{DBS78}{Strand-agnostic doublet-base substitutions.}
-\item{ID}{Strand-agnostic indels.}
-}
+A list with the following elements:
+*\code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
+*\code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
+*\code{DBS78}: Strand-agnostic doublet-base substitutions.
+*\code{ID}: Strand-agnostic indels.
 }
 \source{
-Files downloaded from
-\url{https://cancer.sanger.ac.uk/signatures/downloads/}, 2021 Sep and
-saved in \code{data-raw/COSMIC_v3.2/data/}. \cr Populated by
-\code{data-raw/COSMIC_v3.2/code/generate_COSMIC_v3.2_genome_sigs.R}.
+\url{https://cancer.sanger.ac.uk/signatures/downloads/}.
 }
 \usage{
 signature
