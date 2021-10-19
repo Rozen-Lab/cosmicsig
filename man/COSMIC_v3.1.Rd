@@ -44,7 +44,7 @@ if (!requireNamespace("ICAMS", quietly = TRUE)) {
   install.packages("ICAMS")
 }
 library(ICAMS)
-SBS96_sigs_GRCh38_genome <- COSMIC_v3.1$signature$SBS96
+SBS96_sigs_GRCh38_genome <- signature$SBS96
 
 # Transform SBS96 GRCh38 genome signatures to GRCh38 exome signatures
 SBS96_sigs_GRCh38_exome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
@@ -59,6 +59,7 @@ SBS96_sigs_GRCh37_genome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
 # Transform SBS96 GRCh38 genome signatures to mm10 genome signatures
 SBS96_sigs_mm10_genome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
                                            target.ref.genome = "mm10",
-}                                           target.region = "genome")
+                                           target.region = "genome")
+}
 }
 \keyword{datasets}
