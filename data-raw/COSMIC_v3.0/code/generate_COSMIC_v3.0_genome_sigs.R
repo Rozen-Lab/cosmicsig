@@ -31,8 +31,8 @@ attr(ID.sigs.GRCh37, "ref.genome") <- NULL
 # Put all the signatures inside a list
 COSMIC_v3.0 <- list()
 
-COSMIC_v3.0$signature$genome <- list(SBS96 = SBS96.sigs.GRCh37,
-                                     DBS78 = DBS78.sigs.GRCh37,
-                                     ID = ID.sigs.GRCh37)
+COSMIC_v3.0$signature <- list(SBS96 = SBS96.sigs.GRCh37,
+                              DBS78 = DBS78.sigs.GRCh37,
+                              ID = ID.sigs.GRCh37)
 
 usethis::use_data(COSMIC_v3.0, overwrite = TRUE)

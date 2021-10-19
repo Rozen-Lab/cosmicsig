@@ -6,7 +6,7 @@
 tests
 
 * Used GRCh38 signatures as the default for SBS96 and DBS78 in variable `signature`,
-`COSMIC_v3.2`, `COSMIC_v3.1` 
+`COSMIC_v3.2`, `COSMIC_v3.1` and `COSMIC_v3.0`
 
 * Removed `genome` level structure from variables `signature`,
-`COSMIC_v3.2`, `COSMIC_v3.1` 
+`COSMIC_v3.2`, `COSMIC_v3.1` and `COSMIC_v3.0`
