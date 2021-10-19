@@ -10,9 +10,9 @@
 
 ## Purpose
 
-Contains mutational signatures data from COSMIC (the Catalogue Of
-Somatic Mutations In Cancer) website
-(<https://cancer.sanger.ac.uk/cosmic/signatures/index.tt>)
+Mutational signatures data from COSMIC, the Catalogue Of Somatic
+Mutations In Cancer (<https://cancer.sanger.ac.uk/signatures/>). There
+are also some helper functions for handling COSMIC signatures.
 
 ## Installation
 
