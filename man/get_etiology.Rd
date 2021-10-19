@@ -4,7 +4,7 @@
 \alias{get_etiology}
 \title{Get the proposed etiology of COSMIC signature}
 \usage{
-get_etiology(mutation_type, sig_id, cosmic_version = "3.2")
+get_etiology(mutation_type, sig_id)
 }
 \arguments{
 \item{mutation_type}{Character string, one of "SBS96", "SBS192", "DBS78",
@@ -12,8 +12,6 @@ get_etiology(mutation_type, sig_id, cosmic_version = "3.2")
 
 \item{sig_id}{Character vector with signature ids, e.g. \code{c("SBS3",
 "SBS5")}.}
-
-\item{cosmic_version}{COSMIC signature version.}
 }
 \value{
 A character vector of the same length as \code{sig_id},
@@ -21,8 +19,16 @@ each element of which is the etiology of the
 corresponding signature, if known, or else the empty string.
 }
 \description{
-Get the proposed etiology of COSMIC signature
+The level of evidence supporting the proposed etiologies varies.
+In addition, some proposed etiologies are more akin to associations than
+specific, mechanistic causes.
 }
+\section{Note}{
+
+The etiologies information is not versionized in COSMIC website compared to
+signatures.
+}
+
 \examples{
 get_etiology(mutation_type = "ID", sig_id = c("ID1", "foo", "ID3"))
 

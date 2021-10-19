@@ -6,16 +6,16 @@ library(ICAMS)
 
 # Generate SBS96 signatures
 SBS96.sigs.GRCh37 <-
-  ICAMS::ReadCatalog(file = "./data-raw/COSMIC_v3.0/data/COSMIC_v3.0_SBS_GRCh37.txt",
-                     ref.genome = "GRCh37",
+  ICAMS::ReadCatalog(file = "./data-raw/COSMIC_v3.0/data/COSMIC_v3.0_SBS_GRCh38.txt",
+                     ref.genome = "GRCh38",
                      catalog.type = "counts.signature",
                      region = "genome")
 attr(SBS96.sigs.GRCh37, "ref.genome") <- NULL
 
 # Generate DBS78 signatures
 DBS78.sigs.GRCh37 <-
-  ICAMS::ReadCatalog(file = "./data-raw/COSMIC_v3.0/data/COSMIC_v3.0_DBS_GRCh37.txt",
-                     ref.genome = "GRCh37",
+  ICAMS::ReadCatalog(file = "./data-raw/COSMIC_v3.0/data/COSMIC_v3.0_DBS_GRCh38.txt",
+                     ref.genome = "GRCh38",
                      catalog.type = "counts.signature",
                      region = "genome")
 attr(DBS78.sigs.GRCh37, "ref.genome") <- NULL

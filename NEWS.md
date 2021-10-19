@@ -10,3 +10,5 @@ tests
 
 * Removed `genome` level structure from variables `signature`,
 `COSMIC_v3.2`, `COSMIC_v3.1` and `COSMIC_v3.0`
+
+* Removed argument `cosmic_version` from exported function `get_etiology`
