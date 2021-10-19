@@ -19,6 +19,8 @@
 #'
 #' @md
 #'
+#' @source \url{https://cancer.sanger.ac.uk/signatures/}.
+#'
 #' @examples
 #' SBS96_etiology <- etiology$SBS96
 #'

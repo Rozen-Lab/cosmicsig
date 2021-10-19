@@ -4,11 +4,10 @@
 \name{cosmicsig}
 \alias{cosmicsig}
 \title{cosmicsig: A package of mutational signatures data from COSMIC (the Catalogue
-Of Somatic Mutations In Cancer) website
+Of Somatic Mutations In Cancer)
 \url{https://cancer.sanger.ac.uk/signatures/}}
 \source{
-COSMIC mutational signatures data were downloaded from
-\url{https://cancer.sanger.ac.uk/signatures/downloads/}.
+\url{https://cancer.sanger.ac.uk/signatures/}.
 }
 \description{
 This is a data package with 2 main package variables:

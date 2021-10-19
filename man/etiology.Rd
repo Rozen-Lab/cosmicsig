@@ -21,6 +21,9 @@ etiology.
 In general use \code{\link{get_etiology}}, which handles new
 signatures do not have an element in \code{etiology}.
 }
+\source{
+\url{https://cancer.sanger.ac.uk/signatures/}.
+}
 \usage{
 etiology
 }

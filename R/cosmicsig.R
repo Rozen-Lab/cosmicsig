@@ -1,5 +1,5 @@
 #' cosmicsig: A package of mutational signatures data from COSMIC (the Catalogue
-#' Of Somatic Mutations In Cancer) website
+#' Of Somatic Mutations In Cancer)
 #' \url{https://cancer.sanger.ac.uk/signatures/}
 #'
 #' This is a data package with 2 main package variables:
@@ -11,8 +11,7 @@
 #'
 #' * \code{\link{SBS96_ID_to_SBS192_ID}}
 #'
-#' @source COSMIC mutational signatures data were downloaded from
-#' \url{https://cancer.sanger.ac.uk/signatures/downloads/}.
+#' @source \url{https://cancer.sanger.ac.uk/signatures/}.
 #'
 #' @docType package
 #' @name cosmicsig
