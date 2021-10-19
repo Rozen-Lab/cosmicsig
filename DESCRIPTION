@@ -1,6 +1,6 @@
 Package: cosmicsig
-Title: Repository of Mutational Signatures Data from COSMIC (the Catalogue Of Somatic Mutations In Cancer)
-Version: 1.0.0
+Title: Repository of Mutational Signatures Data from COSMIC (the Catalogue of Somatic Mutations in Cancer)
+Version: 1.0.1
 Author: Steven G. Rozen, Nanhai Jiang
 Maintainer: Steven G. Rozen <steverozen@gmail.com>
 Description: Contains mutational signatures data from the COSMIC 

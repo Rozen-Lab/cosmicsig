@@ -11,17 +11,13 @@ A list with one element \code{signature}.
 \item \code{signature} is a list with the elements:
 \itemize{
 \item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-\item \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
 \item \code{DBS78}: Strand-agnostic doublet-base substitutions.
 \item \code{ID}: Strand-agnostic indels.
 }
 }
 }
 \source{
-Files downloaded from
-\url{https://cancer.sanger.ac.uk/signatures/downloads/}, 2021 Oct and
-saved in \code{data-raw/COSMIC_v3.0/data/}. \cr Populated by
-\code{data-raw/COSMIC_v3.0/code/generate_COSMIC_v3.0_genome_sigs.R}.
+\url{https://cancer.sanger.ac.uk/signatures/downloads/}.
 }
 \usage{
 COSMIC_v3.0
@@ -59,6 +55,6 @@ SBS96_sigs_GRCh37_genome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
 # Transform SBS96 GRCh38 genome signatures to mm10 genome signatures
 SBS96_sigs_mm10_genome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
                                            target.ref.genome = "mm10",
-
+                                           target.region = "genome")
 }
 \keyword{datasets}

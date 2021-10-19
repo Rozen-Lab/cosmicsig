@@ -1,10 +1,7 @@
 #' Mutational signatures data from COSMIC, the Catalogue Of Somatic Mutations In
 #' Cancer, (v3.1 - June 2020)
 #'
-#' @source Files downloaded from
-#'   \url{https://cancer.sanger.ac.uk/signatures/downloads/}, 2021 Oct and
-#'   saved in \code{data-raw/COSMIC_v3.1/data/}. \cr Populated by
-#'   \code{data-raw/COSMIC_v3.1/code/generate_COSMIC_v3.1_genome_sigs.R}.
+#' @source \url{https://cancer.sanger.ac.uk/signatures/downloads/}.
 #'
 #' @format A list with one element \code{signature}.
 #'

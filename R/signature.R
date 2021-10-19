@@ -4,10 +4,10 @@
 #' @source \url{https://cancer.sanger.ac.uk/signatures/downloads/}.
 #'
 #' @format A list with the following elements:
-#'  *\code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-#'  *\code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
-#'  *\code{DBS78}: Strand-agnostic doublet-base substitutions.
-#'  *\code{ID}: Strand-agnostic indels.
+#'  * \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
+#'  * \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
+#'  * \code{DBS78}: Strand-agnostic doublet-base substitutions.
+#'  * \code{ID}: Strand-agnostic indels.
 #'
 #' @section Remark:
 #' \code{SBS96} and \code{DBS78} signatures are from Human \strong{GRCh38} reference genome.

@@ -1,16 +1,12 @@
 #' Mutational signatures data from COSMIC, the Catalogue Of Somatic Mutations In
 #' Cancer, (v3.0 - May 2019)
 #'
-#' @source Files downloaded from
-#'   \url{https://cancer.sanger.ac.uk/signatures/downloads/}, 2021 Oct and
-#'   saved in \code{data-raw/COSMIC_v3.0/data/}. \cr Populated by
-#'   \code{data-raw/COSMIC_v3.0/code/generate_COSMIC_v3.0_genome_sigs.R}.
+#' @source \url{https://cancer.sanger.ac.uk/signatures/downloads/}.
 #'
 #' @format A list with one element \code{signature}.
 #'
 #' * \code{signature} is a list with the elements:
 #'     + \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-#'     + \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
 #'     + \code{DBS78}: Strand-agnostic doublet-base substitutions.
 #'     + \code{ID}: Strand-agnostic indels.
 #'
@@ -43,5 +39,5 @@
 #' # Transform SBS96 GRCh38 genome signatures to mm10 genome signatures
 #' SBS96_sigs_mm10_genome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
 #'                                            target.ref.genome = "mm10",
-#'
+#'                                            target.region = "genome")
 "COSMIC_v3.0"

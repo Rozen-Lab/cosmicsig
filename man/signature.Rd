@@ -7,10 +7,12 @@
 Cancer (v3.2 - March 2021)}
 \format{
 A list with the following elements:
-*\code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-*\code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
-*\code{DBS78}: Strand-agnostic doublet-base substitutions.
-*\code{ID}: Strand-agnostic indels.
+\itemize{
+\item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
+\item \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
+\item \code{DBS78}: Strand-agnostic doublet-base substitutions.
+\item \code{ID}: Strand-agnostic indels.
+}
 }
 \source{
 \url{https://cancer.sanger.ac.uk/signatures/downloads/}.

@@ -18,10 +18,7 @@ A list with one element \code{signature}.
 }
 }
 \source{
-Files downloaded from
-\url{https://cancer.sanger.ac.uk/signatures/downloads/}, 2021 Oct and
-saved in \code{data-raw/COSMIC_v3.1/data/}. \cr Populated by
-\code{data-raw/COSMIC_v3.1/code/generate_COSMIC_v3.1_genome_sigs.R}.
+\url{https://cancer.sanger.ac.uk/signatures/downloads/}.
 }
 \usage{
 COSMIC_v3.1
