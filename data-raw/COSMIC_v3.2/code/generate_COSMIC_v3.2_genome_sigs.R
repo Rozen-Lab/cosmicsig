@@ -21,7 +21,7 @@ signature <- list()
 # https://cosmic-blog.sanger.ac.uk/cosmic-mutational-signatures-release-v3-2/
 
 for (i in 1:length(genomes)) {
-  SBS_sig_filename <- paste0("COSMIC_v3.2_SBS_", genomes[i], ".txt")
+  SBS_sig_filename <- paste0("COSMIC_v", release, "_SBS_", genomes[i], ".txt")
   SBS_sig_filepath <- file.path(folder_paths[i], SBS_sig_filename)
   if (genomes[i] %in% c("GRCh37", "GRCh38", "mm10")) {
     ref_genome <- genomes[i]
@@ -43,7 +43,7 @@ for (i in 1:length(genomes)) {
 
 # Generate DBS78 signatures
 for (i in 1:length(genomes)) {
-  DBS_sig_filename <- paste0("COSMIC_v3.2_DBS_", genomes[i], ".txt")
+  DBS_sig_filename <- paste0("COSMIC_v", release, "_DBS_", genomes[i], ".txt")
   DBS_sig_filepath <- file.path(folder_paths[i], DBS_sig_filename)
   if (genomes[i] %in% c("GRCh37", "GRCh38", "mm10")) {
     ref_genome <- genomes[i]
