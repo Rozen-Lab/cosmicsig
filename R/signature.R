@@ -4,15 +4,25 @@
 #' @source \url{https://cancer.sanger.ac.uk/signatures/}.
 #'
 #' @format A list with the following elements:
-#'  * \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-#'  * \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
-#'  * \code{DBS78}: Strand-agnostic doublet-base substitutions.
-#'  * \code{ID}: Strand-agnostic indels.
+#'  * `GRCh37`: Homo sapiens (human) genome assembly GRCh37.
+#'      + `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
+#'      + `SBS192`: Transcriptionally stranded single-base substitutions in trinucleotide context.
+#'      + `DBS78`: Strand-agnostic doublet-base substitutions.
+#'      + `ID`: Strand-agnostic indels.
+#'  * `GRCh38`: Homo sapiens (human) genome assembly GRCh38.
+#'      + `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
+#'      + `DBS78`: Strand-agnostic doublet-base substitutions.
+#'  * `mm9`: Mus musculus (house mouse) genome assembly mm9.
+#'      + `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
+#'      + `DBS78`: Strand-agnostic doublet-base substitutions.
+#'  * `mm10`: Mus musculus (house mouse) genome assembly mm10.
+#'      + `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
+#'      + `DBS78`: Strand-agnostic doublet-base substitutions.
+#'  * `rn6`: Rattus norvegicus (Norway rat) genome assembly rn6.
+#'      + `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
+#'      + `DBS78`: Strand-agnostic doublet-base substitutions.
 #'
 #' @section Remark:
-#' \code{SBS96} and \code{DBS78} signatures are from the latest \strong{Human GRCh38} reference genome. \cr
-#' Because COSMIC only has the GRCh37 version of SBS transcriptional strand bias and indel signatures, so
-#' \code{SBS192} and \code{ID} signatures are from \strong{Human GRCh37} reference genome. \cr
 #' See examples below for transforming genome signatures to exome signatures. \cr
 #' See \link[ICAMS]{CatalogRowOrder} in package ICAMS for the classification of mutation types.
 #'
@@ -28,26 +38,16 @@
 #' @examples
 #' \dontrun{
 #' # As the abundances of the source sequence of the mutations vary between genome
-#' # and exome and between species, users can use package ICAMS to do the transformations.
+#' # and exome, users can use package ICAMS to do the transformations.
 #' if (!requireNamespace("ICAMS", quietly = TRUE)) {
 #'   install.packages("ICAMS")
 #' }
 #' library(ICAMS)
-#' SBS96_sigs_GRCh38_genome <- signature$SBS96
+#' SBS96_sig_GRCh37_genome <- signature$GRCh37$SBS96
 #'
-#' # Transform SBS96 GRCh38 genome signatures to GRCh38 exome signatures
-#' SBS96_sigs_GRCh38_exome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
-#'                                             target.ref.genome = "GRCh38",
-#'                                             target.region = "exome")
-#'
-#' # Transform SBS96 GRCh38 genome signatures to GRCh37 genome signatures
-#' SBS96_sigs_GRCh37_genome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
-#'                                              target.ref.genome = "GRCh37",
-#'                                              target.region = "genome")
-#'
-#' # Transform SBS96 GRCh38 genome signatures to mm10 genome signatures
-#' SBS96_sigs_mm10_genome <- TransformCatalog(catalog = SBS96_sigs_GRCh38_genome,
-#'                                            target.ref.genome = "mm10",
-#'                                            target.region = "genome")
+#' # Transform SBS96 GRCh37 genome signatures to GRCh37 exome signatures
+#' SBS96_sig_GRCh37_exome <- TransformCatalog(catalog = SBS96_sig_GRCh37_genome,
+#'                                            target.ref.genome = "GRCh37",
+#'                                            target.region = "exome")
 #' }
 "signature"
