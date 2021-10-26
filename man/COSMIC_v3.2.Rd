@@ -90,7 +90,7 @@ SBS96_sig_GRCh37_genome <- COSMIC_v3.2$signature$GRCh37$SBS96
 # Transform SBS96 GRCh37 genome signatures to GRCh37 exome signatures
 SBS96_sig_GRCh37_exome <- TransformCatalog(catalog = SBS96_sig_GRCh37_genome,
                                            target.ref.genome = "GRCh37",
-                                           target.region = "exome")                                          target.region = "genome")
+                                           target.region = "exome")
 }
 }
 \keyword{datasets}
