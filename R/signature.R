@@ -23,8 +23,9 @@
 #'      + `DBS78`: Strand-agnostic doublet-base substitutions.
 #'
 #' @section Remark:
-#' See examples below for transforming genome signatures to exome signatures. \cr
-#' See \link[ICAMS]{CatalogRowOrder} in package ICAMS for the classification of mutation types.
+#' The signatures are all genome signatures. See examples below for transforming
+#' genome signatures to exome signatures. \cr See \link[ICAMS]{CatalogRowOrder}
+#' in package ICAMS for the classification of mutation types.
 #'
 #' @section Note:
 #' SBS10c, SBS10d, SBS91, SBS92, SBS93, SBS94 (total 6) new SBS signatures were

@@ -64,17 +64,18 @@ COSMIC_v3.2
 Mutational signatures data from COSMIC, the Catalogue Of Somatic Mutations In
 Cancer, (v3.2 - March 2021)
 }
-\section{Remark}{
-
-See examples below for transforming genome signatures to exome signatures. \cr
-See \link[ICAMS]{CatalogRowOrder} in package ICAMS for the classification of mutation types.
-}
-
 \section{Note}{
 
 SBS10c, SBS10d, SBS91, SBS92, SBS93, SBS94 (total 6) new SBS signatures were
 added in COSMIC v3.2. See the news from COSMIC release for more details
 \url{https://cosmic-blog.sanger.ac.uk/cosmic-mutational-signatures-release-v3-2/}
+}
+
+\section{Remark}{
+
+The signatures are all genome signatures. See examples below for transforming
+genome signatures to exome signatures. \cr See \link[ICAMS]{CatalogRowOrder}
+in package ICAMS for the classification of mutation types.
 }
 
 \examples{

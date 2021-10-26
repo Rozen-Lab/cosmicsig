@@ -37,9 +37,7 @@
 #'     In general use \code{\link{get_etiology}}, which handles new
 #'     signatures without elements in \code{etiology}.
 #'
-#' @section Remark:
-#' See examples below for transforming genome signatures to exome signatures. \cr
-#' See \link[ICAMS]{CatalogRowOrder} in package ICAMS for the classification of mutation types.
+#' @inheritSection signature Remark
 #'
 #' @section Note:
 #' SBS10c, SBS10d, SBS91, SBS92, SBS93, SBS94 (total 6) new SBS signatures were

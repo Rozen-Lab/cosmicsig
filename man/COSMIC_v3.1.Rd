@@ -52,8 +52,9 @@ Cancer, (v3.1 - June 2020)
 }
 \section{Remark}{
 
-See examples below for transforming genome signatures to exome signatures. \cr
-See \link[ICAMS]{CatalogRowOrder} in package ICAMS for the classification of mutation types.
+The signatures are all genome signatures. See examples below for transforming
+genome signatures to exome signatures. \cr See \link[ICAMS]{CatalogRowOrder}
+in package ICAMS for the classification of mutation types.
 }
 
 \examples{

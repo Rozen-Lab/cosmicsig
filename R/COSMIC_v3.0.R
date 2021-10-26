@@ -23,9 +23,7 @@
 #'        - `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
 #'        - `DBS78`: Strand-agnostic doublet-base substitutions.
 #'
-#' @section Remark:
-#' See examples below for transforming genome signatures to exome signatures. \cr
-#' See \link[ICAMS]{CatalogRowOrder} in package ICAMS for the classification of mutation types.
+#' @inheritSection signature Remark
 #'
 #' @name COSMIC_v3.0
 #'
