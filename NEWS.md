@@ -2,7 +2,6 @@
 * Added signatures renormalized for other genomes. The available genomes are `GRCh37`,
 `GRCh38`, `mm9`, `mm10` and `rn6`
 
-
 # cosmicsig 1.0.1
 * Used GRCh38 signatures as the default for SBS96 and DBS78 in variable `signature`,
 `COSMIC_v3.2`, `COSMIC_v3.1` and `COSMIC_v3.0`
