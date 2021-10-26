@@ -6,7 +6,6 @@ library(ICAMS)
 
 release <- "3.1"
 genomes <- c("GRCh37", "GRCh38", "mm9", "mm10", "rn6")
-mutation_types <- c("SBS", "DBS")
 
 folder_prefix <- paste0("./data-raw/COSMIC_v", release , "/data/")
 folder_paths <- paste0(folder_prefix, genomes)

@@ -1,22 +1,46 @@
 # Source this file from cosmicsig package root
 cat(getwd(), "\n")
 
-# Download COSMIC v3.0 SBS96 signatures from COSMIC download website
-# (https://cancer.sanger.ac.uk/signatures/downloads/)
-download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/431/COSMIC_v3_SBS_GRCh38.txt",
-              destfile = "./data-raw/COSMIC_v3.0/data/COSMIC_v3.0_SBS_GRCh38.txt",
-              quiet = TRUE)
+release <- "3"
+genomes <- c("GRCh37", "GRCh38", "mm9", "mm10", "rn6")
 
-# Download COSMIC v3.0 DBS78 signatures from COSMIC download website
-# (https://cancer.sanger.ac.uk/signatures/downloads/)
-download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/425/COSMIC_v3_DBS_GRCh38.txt",
-              destfile = "./data-raw/COSMIC_v3.0/data/COSMIC_v3.0_DBS_GRCh38.txt",
-              quiet = TRUE)
+url_prefix <- "https://cancer.sanger.ac.uk/signatures/documents/"
+SBS_document_number <- 430:434
+DBS_document_number <- 424:428
+ID_document_number <- 429
 
-# Download COSMIC v3.0 ID signatures from COSMIC download website
-# (https://cancer.sanger.ac.uk/signatures/downloads/)
-download.file(url = "https://cancer.sanger.ac.uk/signatures/documents/429/COSMIC_v3_ID_GRCh37.txt",
-              destfile = "./data-raw/COSMIC_v3.0/data/COSMIC_v3.0_ID_GRCh37.txt",
+folder_prefix <- paste0("./data-raw/COSMIC_v", "3.0" , "/data/")
+folder_paths <- paste0(folder_prefix, genomes)
+
+# Create folders for putting the signature files for different genomes
+out <- sapply(folder_paths, FUN = dir.create, recursive = TRUE, showWarnings = FALSE)
+
+# Download SBS96 signatures
+for (i in 1:length(genomes)) {
+  SBS_sig_filename <- paste0("COSMIC_v", release, "_SBS_", genomes[i], ".txt")
+  SBS_URL_path <- paste0(url_prefix, SBS_document_number[i], "/", SBS_sig_filename)
+  dest_file_path <- paste0(folder_paths[i], "/", SBS_sig_filename)
+  download.file(url = SBS_URL_path,
+                destfile = paste0(folder_paths[i], "/", SBS_sig_filename),
+                quiet = TRUE)
+}
+
+# Download DBS signatures
+for (i in 1:length(genomes)) {
+  DBS_sig_filename <- paste0("COSMIC_v", release, "_DBS_", genomes[i], ".txt")
+  DBS_URL_path <- paste0(url_prefix, DBS_document_number[i], "/", DBS_sig_filename)
+  dest_file_path <- paste0(folder_paths[i], "/", DBS_sig_filename)
+  download.file(url = DBS_URL_path,
+                destfile = paste0(folder_paths[i], "/", DBS_sig_filename),
+                quiet = TRUE)
+}
+
+# Download ID signature (only available for GRCh37)
+ID_sig_filename <- paste0("COSMIC_v", release, "_ID_", "GRCh37", ".txt")
+ID_URL_path <- paste0(url_prefix, ID_document_number, "/", ID_sig_filename)
+dest_file_path <- paste0(folder_paths[1], "/", ID_sig_filename)
+download.file(url = ID_URL_path,
+              destfile = paste0(folder_paths[1], "/", ID_sig_filename),
               quiet = TRUE)
 
 # As the original URL from downloading SBS192 signatures from COSMIC v3.0
