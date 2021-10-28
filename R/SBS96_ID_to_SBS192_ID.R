@@ -16,9 +16,13 @@
 #' SBS192_ids <- SBS96_ID_to_SBS192_ID(SBS96_ids)
 SBS96_ID_to_SBS192_ID <- function(sig_ids) {
   need_minus_E <-
-    c("SBS23", "SBS25", "SBS27", "SBS29",
-      "SBS42", "SBS45", "SBS46", "SBS59")
-  rr <- lapply(sig_ids,
-               function(x) ifelse(x %in% need_minus_E, paste0(x, "-E"), x))
+    c(
+      "SBS23", "SBS25", "SBS27", "SBS29",
+      "SBS42", "SBS45", "SBS46", "SBS59"
+    )
+  rr <- lapply(
+    sig_ids,
+    function(x) ifelse(x %in% need_minus_E, paste0(x, "-E"), x)
+  )
   return(unlist(rr))
 }

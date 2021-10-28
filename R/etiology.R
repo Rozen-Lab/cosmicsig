@@ -23,5 +23,4 @@
 #'
 #' @examples
 #' SBS96_etiology <- etiology$SBS96
-#'
 "etiology"

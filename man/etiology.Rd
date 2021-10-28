@@ -33,6 +33,5 @@ Catalogue Of Somatic Mutations In Cancer (v3.2 - March 2021)
 }
 \examples{
 SBS96_etiology <- etiology$SBS96
-
 }
 \keyword{datasets}

@@ -72,9 +72,11 @@ library(ICAMS)
 SBS96_sig_GRCh37_genome <- signature$GRCh37$SBS96
 
 # Transform SBS96 GRCh37 genome signatures to GRCh37 exome signatures
-SBS96_sig_GRCh37_exome <- TransformCatalog(catalog = SBS96_sig_GRCh37_genome,
-                                           target.ref.genome = "GRCh37",
-                                           target.region = "exome")
+SBS96_sig_GRCh37_exome <- TransformCatalog(
+  catalog = SBS96_sig_GRCh37_genome,
+  target.ref.genome = "GRCh37",
+  target.region = "exome"
+)
 }
 }
 \keyword{datasets}

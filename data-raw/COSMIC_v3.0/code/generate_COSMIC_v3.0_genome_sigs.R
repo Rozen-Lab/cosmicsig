@@ -7,7 +7,7 @@ library(ICAMS)
 release <- "3"
 genomes <- c("GRCh37", "GRCh38", "mm9", "mm10", "rn6")
 
-folder_prefix <- paste0("./data-raw/COSMIC_v", "3.0" , "/data/")
+folder_prefix <- paste0("./data-raw/COSMIC_v", "3.0", "/data/")
 folder_paths <- paste0(folder_prefix, genomes)
 
 COSMIC_v3.0 <- list()
@@ -23,10 +23,12 @@ for (i in 1:length(genomes)) {
     # Set it to NULL to avoid error
     ref_genome <- NULL
   }
-  SBS96_sig <- ICAMS::ReadCatalog(file = SBS_sig_filepath,
-                                  ref.genome = ref_genome,
-                                  catalog.type = "counts.signature",
-                                  region = "genome")
+  SBS96_sig <- ICAMS::ReadCatalog(
+    file = SBS_sig_filepath,
+    ref.genome = ref_genome,
+    catalog.type = "counts.signature",
+    region = "genome"
+  )
 
   # Set the attribute "ref.genome" to NULL because this BSgenome class object
   # can cause error when transferring between computers
@@ -45,10 +47,12 @@ for (i in 1:length(genomes)) {
     # Set it to NULL to avoid error
     ref_genome <- NULL
   }
-  DBS78_sig <- ICAMS::ReadCatalog(file = DBS_sig_filepath,
-                                  ref.genome = ref_genome,
-                                  catalog.type = "counts.signature",
-                                  region = "genome")
+  DBS78_sig <- ICAMS::ReadCatalog(
+    file = DBS_sig_filepath,
+    ref.genome = ref_genome,
+    catalog.type = "counts.signature",
+    region = "genome"
+  )
 
   # Set the attribute "ref.genome" to NULL because this BSgenome class object
   # can cause error when transferring between computers
@@ -59,10 +63,12 @@ for (i in 1:length(genomes)) {
 # Generate ID signatures (only available for GRCh37)
 ID_sig_filename <- paste0("COSMIC_v", release, "_ID_", "GRCh37", ".txt")
 ID_sig_filepath <- file.path(folder_paths[1], ID_sig_filename)
-ID_sig_GRCh37 <- ICAMS::ReadCatalog(file = ID_sig_filepath,
-                                    ref.genome = "GRCh37",
-                                    catalog.type = "counts.signature",
-                                    region = "genome")
+ID_sig_GRCh37 <- ICAMS::ReadCatalog(
+  file = ID_sig_filepath,
+  ref.genome = "GRCh37",
+  catalog.type = "counts.signature",
+  region = "genome"
+)
 attr(ID_sig_GRCh37, "ref.genome") <- NULL
 COSMIC_v3.0$signature[["GRCh37"]]$ID <- ID_sig_GRCh37
 

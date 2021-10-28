@@ -31,5 +31,4 @@ signatures.
 
 \examples{
 get_etiology(mutation_type = "ID", sig_id = c("ID1", "foo", "ID3"))
-
 }
