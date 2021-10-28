@@ -1,6 +1,8 @@
 # cosmicsig 1.0.3
 * Applied tidyverse style to existing code
 
+* Added new exported function `possible_artifacts`
+
 # cosmicsig 1.0.2
 * Added signatures renormalized for other genomes. The available genomes are `GRCh37`,
 `GRCh38`, `mm9`, `mm10` and `rn6`
