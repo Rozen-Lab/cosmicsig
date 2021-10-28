@@ -3,3 +3,4 @@
 export(SBS96_ID_to_SBS192_ID)
 export(get_etiology)
 export(possible_artifacts)
+export(rare_signatures)
