@@ -11,32 +11,22 @@ A list with two elements, \code{signature} and \code{etiology}.
 \item \code{signature} is a list with the elements:
 \itemize{
 \item \code{GRCh37}: Homo sapiens (human) genome assembly GRCh37.
-\itemize{
-\item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-\item \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
-\item \code{DBS78}: Strand-agnostic doublet-base substitutions.
-\item \code{ID}: Strand-agnostic indels.
-}
 \item \code{GRCh38}: Homo sapiens (human) genome assembly GRCh38.
-\itemize{
-\item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-\item \code{DBS78}: Strand-agnostic doublet-base substitutions.
-}
 \item \code{mm9}: Mus musculus (house mouse) genome assembly mm9.
-\itemize{
-\item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-\item \code{DBS78}: Strand-agnostic doublet-base substitutions.
-}
 \item \code{mm10}: Mus musculus (house mouse) genome assembly mm10.
-\itemize{
-\item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-\item \code{DBS78}: Strand-agnostic doublet-base substitutions.
-}
 \item \code{rn6}: Rattus norvegicus (Norway rat) genome assembly rn6.
+}
+
+Each element contains the sub elements:
 \itemize{
 \item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
 \item \code{DBS78}: Strand-agnostic doublet-base substitutions.
 }
+
+Element GRCh37 contains the additional sub elements:
+\itemize{
+\item \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
+\item \code{ID}: Strand-agnostic indels.
 }
 \item \code{etiology} is a list with elements:
 \itemize{

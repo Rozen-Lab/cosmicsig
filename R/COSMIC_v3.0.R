@@ -7,21 +7,17 @@
 #'
 #' * \code{signature} is a list with the elements:
 #'     + `GRCh37`: Homo sapiens (human) genome assembly GRCh37.
-#'         - `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
-#'         - `DBS78`: Strand-agnostic doublet-base substitutions.
-#'         - `ID`: Strand-agnostic indels.
 #'     + `GRCh38`: Homo sapiens (human) genome assembly GRCh38.
-#'        - `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
-#'        - `DBS78`: Strand-agnostic doublet-base substitutions.
 #'     + `mm9`: Mus musculus (house mouse) genome assembly mm9.
-#'        - `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
-#'        - `DBS78`: Strand-agnostic doublet-base substitutions.
 #'     + `mm10`: Mus musculus (house mouse) genome assembly mm10.
-#'        - `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
-#'        - `DBS78`: Strand-agnostic doublet-base substitutions.
 #'     + `rn6`: Rattus norvegicus (Norway rat) genome assembly rn6.
-#'        - `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
-#'        - `DBS78`: Strand-agnostic doublet-base substitutions.
+#'
+#'     Each element contains the sub elements:
+#'     + `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
+#'     + `DBS78`: Strand-agnostic doublet-base substitutions.
+#'
+#'     Element GRCh37 contains the additional sub elements:
+#'     + `ID`: Strand-agnostic indels.
 #'
 #' @inheritSection signature Remark
 #'
