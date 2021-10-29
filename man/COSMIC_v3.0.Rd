@@ -4,7 +4,7 @@
 \name{COSMIC_v3.0}
 \alias{COSMIC_v3.0}
 \title{Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
-Cancer, (v3.0 - May 2019)}
+Cancer (v3.0 - May 2019)}
 \format{
 A list with one element \code{signature}, with the
 same structure as \code{\link{signature}}, except that
@@ -18,7 +18,7 @@ COSMIC_v3.0
 }
 \description{
 Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
-Cancer, (v3.0 - May 2019)
+Cancer (v3.0 - May 2019)
 }
 \section{Remark}{
 

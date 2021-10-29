@@ -4,7 +4,7 @@
 \name{COSMIC_v3.2}
 \alias{COSMIC_v3.2}
 \title{Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
-Cancer, (v3.2 - March 2021)}
+Cancer (v3.2 - March 2021)}
 \format{
 A list with two elements, \code{signature} and \code{etiology}.
 \itemize{
@@ -22,7 +22,7 @@ COSMIC_v3.2
 }
 \description{
 Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
-Cancer, (v3.2 - March 2021)
+Cancer (v3.2 - March 2021)
 }
 \section{Note}{
 

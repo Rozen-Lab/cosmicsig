@@ -1,7 +1,12 @@
+al
+Alexandrov
 CMD
 Catalogue
+dinucleotides
 DBS
 GRCh
+hg
+et
 ICAMS
 Rattus
 Rozen
@@ -17,6 +22,7 @@ norvegicus
 renormalized
 rn
 sanger
+signatures's
 tidyverse
 transcriptional
 trinucleotide

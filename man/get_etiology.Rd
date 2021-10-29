@@ -32,3 +32,6 @@ The etiology information is not versioned at the COSMIC website.
 \examples{
 get_etiology(mutation_type = "ID", sig_id = c("ID1", "foo", "ID3"))
 }
+\seealso{
+\code{\link{get_etiology}}
+}

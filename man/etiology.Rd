@@ -3,8 +3,8 @@
 \docType{data}
 \name{etiology}
 \alias{etiology}
-\title{List of mutational signature's proposed etiology summarized from COSMIC, the
-Catalogue Of Somatic Mutations In Cancer (v3.2 - March 2021)}
+\title{List of mutational signatures's proposed etiology summarized from COSMIC,
+Catalogue Of Somatic Mutations In Cancer (as of March 2021)}
 \format{
 A list with the elements:
 \itemize{
@@ -28,8 +28,8 @@ signatures do not have an element in \code{etiology}.
 etiology
 }
 \description{
-List of mutational signature's proposed etiology summarized from COSMIC, the
-Catalogue Of Somatic Mutations In Cancer (v3.2 - March 2021)
+List of mutational signatures's proposed etiology summarized from COSMIC,
+Catalogue Of Somatic Mutations In Cancer (as of March 2021)
 }
 \examples{
 SBS96_etiology <- etiology$SBS96

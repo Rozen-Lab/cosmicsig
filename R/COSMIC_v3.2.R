@@ -1,5 +1,5 @@
 #' Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
-#' Cancer, (v3.2 - March 2021)
+#' Cancer (v3.2 - March 2021)
 #'
 #' @source \url{https://cancer.sanger.ac.uk/signatures/}.
 #'

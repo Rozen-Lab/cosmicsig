@@ -1,5 +1,5 @@
-#' List of mutational signature's proposed etiology summarized from COSMIC, the
-#' Catalogue Of Somatic Mutations In Cancer (v3.2 - March 2021)
+#' List of mutational signatures's proposed etiology summarized from COSMIC,
+#' Catalogue Of Somatic Mutations In Cancer (as of March 2021)
 #'
 #' @format
 #'

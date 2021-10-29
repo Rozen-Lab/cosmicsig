@@ -27,15 +27,14 @@
 #'
 #' * ID (small insertions and deletions)
 #'
+#' The package variable \code{\link{etiology}} contains
+#' information on known or hypothesized causes of
+#' mutational signatures. In general, it is better to use
+#' \code{\link{get_etiology}}.
+#'
 #' Earlier releases are available in the
 #' variables COSMIC_*version*, e.g.
-#' \code{\link{COSMIC_v3.2}}.
-#'
-#' There are also functions proding
-#' information about mutational signatures:
-#'
-#' The function \code{\link{get_etiology}} returns the
-#' known or hypothesized etiologies of signatures.
+#' \code{\link{COSMIC_v3.1}}.
 #'
 #' The profiles of SBSs signatures depend on the
 #' frequencies of trinucleotides in a genome
@@ -48,10 +47,15 @@
 #' human GRCh37 (also known as hg19) and GRCh38,
 #' and for mouse and rat. However strand bias
 #' SBS signatures are only available for GRCh37.
+#' ID signatures do not take into consideration
+#' differing nucleotide composition between
+#' reference genomes because relating this
+#' to the ID mutational categories would be
+#' extremely complicated.
 #' There are also some minor differences in
 #' identifiers for stranded SBSs, and
-#' helper function to deal with these.
-#' See \code{\link{SBS96_ID_to_SBS192_ID}}.
+#' a helper function to deal with these:
+#' \code{\link{SBS96_ID_to_SBS192_ID}}.
 #'
 #' Some signatures are due to experimental
 #' or laboratory artifacts. Function

@@ -16,7 +16,7 @@ Description: Mutational signatures from COSMIC (the Catalogue Of Somatic
      strand,
      * DBS (doublet base substitutions),
      * ID (small insertions and deletions)
-    The etiology package variable provides the known or hypothesied 
+    The etiology package variable provides the known or hypothesized 
     causes of signatures. Please run ?cosmicsig for more information.
 License: GPL-3 | file LICENSE
 URL: https://github.com/Rozen-Lab/cosmicsig
