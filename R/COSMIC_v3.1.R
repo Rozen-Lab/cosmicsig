@@ -1,24 +1,10 @@
-#' Mutational signatures data from COSMIC, the Catalogue Of Somatic Mutations In
+#' Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
 #' Cancer, (v3.1 - June 2020)
 #'
 #' @source \url{https://cancer.sanger.ac.uk/signatures/}.
 #'
-#' @format A list with one element \code{signature}.
-#'
-#' * \code{signature} is a list with the elements:
-#'     + `GRCh37`: Homo sapiens (human) genome assembly GRCh37.
-#'     + `GRCh38`: Homo sapiens (human) genome assembly GRCh38.
-#'     + `mm9`: Mus musculus (house mouse) genome assembly mm9.
-#'     + `mm10`: Mus musculus (house mouse) genome assembly mm10.
-#'     + `rn6`: Rattus norvegicus (Norway rat) genome assembly rn6.
-#'
-#'     Each element contains the sub elements:
-#'     + `SBS96`: Strand-agnostic single-base substitutions in trinucleotide context.
-#'     + `DBS78`: Strand-agnostic doublet-base substitutions.
-#'
-#'     Element GRCh37 contains the additional sub elements:
-#'     + `SBS192`: Transcriptionally stranded single-base substitutions in trinucleotide context.
-#'     + `ID`: Strand-agnostic indels.
+#' @format A list with one element \code{signature}, with the
+#' same structure as \code{\link{signature}}.
 #'
 #' @inheritSection signature Remark
 #'

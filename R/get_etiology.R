@@ -1,6 +1,8 @@
-#' Get the proposed etiology of COSMIC signature
+#' Get the proposed etiology of mutational signatures.
 #'
-#' @description The level of evidence supporting the proposed etiologies varies.
+#' @description
+#'   Return the known or hypothesized causes of mutational signatures.
+#'   The level of evidence supporting the proposed etiologies varies.
 #'   In addition, some proposed etiologies are more akin to associations than
 #'   specific, mechanistic causes.
 #'
@@ -12,11 +14,10 @@
 #'
 #' @return A character vector of the same length as \code{sig_id},
 #' each element of which is the etiology of the
-#' corresponding signature, if known, or else the empty string.
+#' corresponding signature, if available, or else the empty string.
 #'
 #' @section Note:
-#' The etiologies information is not versionized in COSMIC website compared to
-#' signatures.
+#' The etiology information is not versioned at the COSMIC website.
 #'
 #' @examples
 #' get_etiology(mutation_type = "ID", sig_id = c("ID1", "foo", "ID3"))

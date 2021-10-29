@@ -3,32 +3,11 @@
 \docType{data}
 \name{COSMIC_v3.1}
 \alias{COSMIC_v3.1}
-\title{Mutational signatures data from COSMIC, the Catalogue Of Somatic Mutations In
+\title{Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
 Cancer, (v3.1 - June 2020)}
 \format{
-A list with one element \code{signature}.
-\itemize{
-\item \code{signature} is a list with the elements:
-\itemize{
-\item \code{GRCh37}: Homo sapiens (human) genome assembly GRCh37.
-\item \code{GRCh38}: Homo sapiens (human) genome assembly GRCh38.
-\item \code{mm9}: Mus musculus (house mouse) genome assembly mm9.
-\item \code{mm10}: Mus musculus (house mouse) genome assembly mm10.
-\item \code{rn6}: Rattus norvegicus (Norway rat) genome assembly rn6.
-}
-
-Each element contains the sub elements:
-\itemize{
-\item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-\item \code{DBS78}: Strand-agnostic doublet-base substitutions.
-}
-
-Element GRCh37 contains the additional sub elements:
-\itemize{
-\item \code{SBS192}: Transcriptionally stranded single-base substitutions in trinucleotide context.
-\item \code{ID}: Strand-agnostic indels.
-}
-}
+A list with one element \code{signature}, with the
+same structure as \code{\link{signature}}.
 }
 \source{
 \url{https://cancer.sanger.ac.uk/signatures/}.
@@ -37,7 +16,7 @@ Element GRCh37 contains the additional sub elements:
 COSMIC_v3.1
 }
 \description{
-Mutational signatures data from COSMIC, the Catalogue Of Somatic Mutations In
+Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
 Cancer, (v3.1 - June 2020)
 }
 \section{Remark}{

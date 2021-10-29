@@ -3,31 +3,12 @@
 \docType{data}
 \name{COSMIC_v3.0}
 \alias{COSMIC_v3.0}
-\title{Mutational signatures data from COSMIC, the Catalogue Of Somatic Mutations In
+\title{Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
 Cancer, (v3.0 - May 2019)}
 \format{
-A list with one element \code{signature}.
-\itemize{
-\item \code{signature} is a list with the elements:
-\itemize{
-\item \code{GRCh37}: Homo sapiens (human) genome assembly GRCh37.
-\item \code{GRCh38}: Homo sapiens (human) genome assembly GRCh38.
-\item \code{mm9}: Mus musculus (house mouse) genome assembly mm9.
-\item \code{mm10}: Mus musculus (house mouse) genome assembly mm10.
-\item \code{rn6}: Rattus norvegicus (Norway rat) genome assembly rn6.
-}
-
-Each element contains the sub elements:
-\itemize{
-\item \code{SBS96}: Strand-agnostic single-base substitutions in trinucleotide context.
-\item \code{DBS78}: Strand-agnostic doublet-base substitutions.
-}
-
-Element GRCh37 contains the additional sub elements:
-\itemize{
-\item \code{ID}: Strand-agnostic indels.
-}
-}
+A list with one element \code{signature}, with the
+same structure as \code{\link{signature}}, except that
+sub-element GRCh37 does contain \code{SBS192}.
 }
 \source{
 \url{https://cancer.sanger.ac.uk/signatures/}.
@@ -36,7 +17,7 @@ Element GRCh37 contains the additional sub elements:
 COSMIC_v3.0
 }
 \description{
-Mutational signatures data from COSMIC, the Catalogue Of Somatic Mutations In
+Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
 Cancer, (v3.0 - May 2019)
 }
 \section{Remark}{
@@ -50,7 +31,7 @@ in package ICAMS for the classification of mutation types.
 \dontrun{
 # As the abundances of the source sequence of the mutations vary between genome
 # and exome, users can use package ICAMS to do the transformations.
-if (!requireNamespace("ICAMS", quietly = TRUE)) {
+if (!requireNamespace("ICAMS", quietly = TRUE)) {s
   install.packages("ICAMS")
 }
 library(ICAMS)

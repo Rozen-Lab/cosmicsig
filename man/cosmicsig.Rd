@@ -3,7 +3,7 @@
 \docType{package}
 \name{cosmicsig}
 \alias{cosmicsig}
-\title{cosmicsig: A package of mutational signatures from COSMIC (the Catalogue
+\title{cosmicsig: A package of mutational signatures from COSMIC (Catalogue
 Of Somatic Mutations In Cancer)
 \url{https://cancer.sanger.ac.uk/signatures/}.}
 \source{
@@ -21,7 +21,7 @@ This is a data package with 2 main package variables:
 The \code{\link{signature}} variable contains the
 latest mutational signature profiles released on
 \url{https://cancer.sanger.ac.uk/signatures/} for
-three mutation types:
+4 mutation types:
 \itemize{
 \item SBS (single base substitutions in the context
 of preceding and following bases, called SBS96
@@ -38,7 +38,8 @@ Earlier releases are available in the
 variables COSMIC_\emph{version}, e.g.
 \code{\link{COSMIC_v3.2}}.
 
-There are also two functions for handling COSMIC signatures:
+There are also functions proding
+information about mutational signatures:
 
 The function \code{\link{get_etiology}} returns the
 known or hypothesized etiologies of signatures.

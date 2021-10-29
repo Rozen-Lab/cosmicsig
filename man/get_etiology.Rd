@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_etiology.R
 \name{get_etiology}
 \alias{get_etiology}
-\title{Get the proposed etiology of COSMIC signature}
+\title{Get the proposed etiology of mutational signatures.}
 \usage{
 get_etiology(mutation_type, sig_id)
 }
@@ -16,17 +16,17 @@ get_etiology(mutation_type, sig_id)
 \value{
 A character vector of the same length as \code{sig_id},
 each element of which is the etiology of the
-corresponding signature, if known, or else the empty string.
+corresponding signature, if available, or else the empty string.
 }
 \description{
+Return the known or hypothesized causes of mutational signatures.
 The level of evidence supporting the proposed etiologies varies.
 In addition, some proposed etiologies are more akin to associations than
 specific, mechanistic causes.
 }
 \section{Note}{
 
-The etiologies information is not versionized in COSMIC website compared to
-signatures.
+The etiology information is not versioned at the COSMIC website.
 }
 
 \examples{
