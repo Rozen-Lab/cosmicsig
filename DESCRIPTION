@@ -2,7 +2,7 @@ Package: cosmicsig
 Title: Mutational Signatures from COSMIC (Catalogue of Somatic Mutations in Cancer)
 Version: 1.0.3
 Author: Steven G. Rozen, Nanhai Jiang
-Maintainer: Steven G. Rozen <steverozen@gmail.com>
+Maintainer: Steven G. Rozen <steverozen@pm.me>
 Description: Mutational signatures from COSMIC (the Catalogue Of Somatic
     Mutations In Cancer) <https://cancer.sanger.ac.uk/signatures/>.
     The name cosmicsig stands for COSMIC signatures. This is a data package 
