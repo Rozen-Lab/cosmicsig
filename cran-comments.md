@@ -7,6 +7,8 @@ This is a resubmission. In this version I have:
 
 * Deleted "| file LICENSE" in DESCRIPTION and the file.
 
+* Used Authors@R field in DESCRIPTION.
+
 ## Test environments
 * Local Windows 10 install: R 4.1.2
 * Local OS X Big Sur install: R 4.1.1
