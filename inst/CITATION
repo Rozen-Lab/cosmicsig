@@ -3,10 +3,10 @@ citHeader("To cite R package cosmicsig in publications use:")
 citEntry(
   entry    = "Manual",
   title    = "cosmicsig: Mutational Signatures Data from COSMIC (the Catalogue of Somatic Mutations in Cancer)",
-  author   = c(person("Steve", "Rozen"),
-                    person("Nanhai", "Jiang")),
+  author   = c(person("Steven", "Rozen"),
+               person("Nanhai", "Jiang")),
   year     = "2021",
-  note     = "R package version 1.0.2",
+  note     = "R package version 1.0.4",
   textVersion = paste0("Rozen SG, Jiang NH (2021). ",
-  "cosmicsig: Mutational Signatures Data from COSMIC (the Catalogue of Somatic Mutations in Cancer). ", "R package version 1.0.2.")
+  "cosmicsig: Mutational Signatures Data from COSMIC (the Catalogue of Somatic Mutations in Cancer). ", "R package version 1.0.4.")
 )
