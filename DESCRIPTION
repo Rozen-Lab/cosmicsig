@@ -13,7 +13,7 @@ Description: A data package with 2 main package variables: 'signature' and 'etio
      * ID (small insertions and deletions)
     The 'etiology' variable provides the known or hypothesized causes of signatures. 
     'cosmicsig' stands for COSMIC signatures. Please run ?'cosmicsig' for more information.
-License: GPL-3 | file LICENSE
+License: GPL-3
 URL: https://github.com/Rozen-Lab/cosmicsig
 BugReports: https://github.com/Rozen-Lab/cosmicsig/issues
 Language: en-US

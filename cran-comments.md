@@ -5,6 +5,8 @@ This is a resubmission. In this version I have:
 
 * Deleted the extra word "into" in DESCRIPTION.
 
+* Deleted "| file LICENSE" in DESCRIPTION and the file.
+
 ## Test environments
 * Local Windows 10 install: R 4.1.2
 * Local OS X Big Sur install: R 4.1.1
