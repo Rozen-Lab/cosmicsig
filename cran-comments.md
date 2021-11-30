@@ -1,7 +1,9 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Updated the DESCRIPTION to use single quotes for package name and API.
+* Updated the DESCRIPTION to use single quotes for package name.
+
+* Deleted the extra word "into" in DESCRIPTION.
 
 ## Test environments
 * Local Windows 10 install: R 4.1.2
