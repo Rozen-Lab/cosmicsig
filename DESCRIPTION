@@ -1,23 +1,18 @@
 Package: cosmicsig
 Title: Mutational Signatures from COSMIC (Catalogue of Somatic Mutations in Cancer)
-Version: 1.0.3
+Version: 1.0.4
 Author: Steven G. Rozen, Nanhai Jiang
 Maintainer: Steven G. Rozen <steverozen@pm.me>
-Description: Mutational signatures from COSMIC (the Catalogue Of Somatic
-    Mutations In Cancer) <https://cancer.sanger.ac.uk/signatures/>.
-    The name cosmicsig stands for COSMIC signatures. This is a data package 
-    with 2 main package variables: signature and etiology. The signature
-    variable contains the latest mutational signature profiles released
-    on COSMIC for 4 mutation types:
-     * SBS (single base substitutions in the context of preceding and 
-     following bases,
-     * Strand bias SBS: SBSs from transcribed regions (exons and 
-     introns), that take into into consideration the transcriptional 
-     strand,
+Description: A data package with 2 main package variables: 'signature' and 'etiology'. 
+     The 'signature' variable contains the latest mutational signature profiles released
+     on COSMIC <https://cancer.sanger.ac.uk/signatures/> for 4 mutation types:
+     * SBS (single base substitutions in the context of preceding and following bases),
+     * Strand bias SBS: SBSs from transcribed regions (exons and introns), 
+     that take into consideration the transcriptional strand,
      * DBS (doublet base substitutions),
      * ID (small insertions and deletions)
-    The etiology package variable provides the known or hypothesized 
-    causes of signatures. Please run ?cosmicsig for more information.
+    The 'etiology' variable provides the known or hypothesized causes of signatures. 
+    'cosmicsig' stands for COSMIC signatures. Please run ?'cosmicsig' for more information.
 License: GPL-3 | file LICENSE
 URL: https://github.com/Rozen-Lab/cosmicsig
 BugReports: https://github.com/Rozen-Lab/cosmicsig/issues
