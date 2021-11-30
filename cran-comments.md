@@ -11,6 +11,8 @@ This is a resubmission. In this version I have:
 
 * Added Rd-tag \value in possible_artifacts.Rd and rare_signatures.Rd.
 
+* Removed \dontrun{} in the examples.
+
 ## Test environments
 * Local Windows 10 install: R 4.1.2
 * Local OS X Big Sur install: R 4.1.1

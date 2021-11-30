@@ -27,7 +27,6 @@ in package ICAMS for the classification of mutation types.
 }
 
 \examples{
-\dontrun{
 # As the abundances of the source sequence of the mutations vary between genome
 # and exome, users can use package ICAMS to do the transformations.
 if (!requireNamespace("ICAMS", quietly = TRUE)) {
@@ -42,6 +41,5 @@ SBS96_sig_GRCh37_exome <- TransformCatalog(
   target.ref.genome = "GRCh37",
   target.region = "exome"
 )
-}
 }
 \keyword{datasets}

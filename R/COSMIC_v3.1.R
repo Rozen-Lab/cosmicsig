@@ -11,7 +11,6 @@
 #' @name COSMIC_v3.1
 #'
 #' @examples
-#' \dontrun{
 #' # As the abundances of the source sequence of the mutations vary between genome
 #' # and exome, users can use package ICAMS to do the transformations.
 #' if (!requireNamespace("ICAMS", quietly = TRUE)) {
@@ -26,5 +25,4 @@
 #'   target.ref.genome = "GRCh37",
 #'   target.region = "exome"
 #' )
-#' }
 "COSMIC_v3.1"
