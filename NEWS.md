@@ -1,3 +1,18 @@
+# cosmicsig 1.0.4
+* Updated the DESCRIPTION to use single quotes for package name.
+
+* Deleted the extra word "into" in DESCRIPTION.
+
+* Deleted "| file LICENSE" in DESCRIPTION and the file.
+
+* Used Authors@R field in DESCRIPTION.
+
+* Added Rd-tag \value in possible_artifacts.Rd and rare_signatures.Rd.
+
+* Removed \dontrun{} in the examples.
+
+* Wrapped examples that need packages in 'Suggests' in `if(requireNamespace("pkgname")){}`.
+
 # cosmicsig 1.0.3
 * Applied tidyverse style to existing code
 
