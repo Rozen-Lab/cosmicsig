@@ -41,17 +41,18 @@ in package ICAMS for the classification of mutation types.
 \examples{
 # As the abundances of the source sequence of the mutations vary between genome
 # and exome, users can use package ICAMS to do the transformations.
-if (!requireNamespace("ICAMS", quietly = TRUE)) {
+if (!requireNamespace("ICAMS")) {
   install.packages("ICAMS")
-}
-library(ICAMS)
-SBS96_sig_GRCh37_genome <- COSMIC_v3.2$signature$GRCh37$SBS96
+  library(ICAMS)
 
-# Transform SBS96 GRCh37 genome signatures to GRCh37 exome signatures
-SBS96_sig_GRCh37_exome <- TransformCatalog(
-  catalog = SBS96_sig_GRCh37_genome,
-  target.ref.genome = "GRCh37",
-  target.region = "exome"
-)
+  SBS96_sig_GRCh37_genome <- COSMIC_v3.2$signature$GRCh37$SBS96
+
+  # Transform SBS96 GRCh37 genome signatures to GRCh37 exome signatures
+  SBS96_sig_GRCh37_exome <- TransformCatalog(
+    catalog = SBS96_sig_GRCh37_genome,
+    target.ref.genome = "GRCh37",
+    target.region = "exome"
+  )
+}
 }
 \keyword{datasets}

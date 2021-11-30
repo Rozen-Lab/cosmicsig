@@ -13,6 +13,8 @@ This is a resubmission. In this version I have:
 
 * Removed \dontrun{} in the examples.
 
+* Wrapped examples that need packages in 'Suggests' in `if(requireNamespace("pkgname")){}`.
+
 ## Test environments
 * Local Windows 10 install: R 4.1.2
 * Local OS X Big Sur install: R 4.1.1
