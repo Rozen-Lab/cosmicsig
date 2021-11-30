@@ -9,6 +9,8 @@ This is a resubmission. In this version I have:
 
 * Used Authors@R field in DESCRIPTION.
 
+* Added Rd-tag \value in possible_artifacts.Rd and rare_signatures.Rd.
+
 ## Test environments
 * Local Windows 10 install: R 4.1.2
 * Local OS X Big Sur install: R 4.1.1

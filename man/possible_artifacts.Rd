@@ -2,12 +2,16 @@
 % Please edit documentation in R/possible_artifacts.R
 \name{possible_artifacts}
 \alias{possible_artifacts}
-\title{Return a character vector of the IDs of possible SBS96 signature artifacts}
+\title{Return a character vector of the names of possible SBS96 signature artifacts}
 \usage{
 possible_artifacts()
 }
+\value{
+A character vector of the names of possible SBS96 signature
+artifacts.
+}
 \description{
-Return a character vector of the IDs of possible SBS96 signature artifacts
+Return a character vector of the names of possible SBS96 signature artifacts
 }
 \examples{
 artifact_sigs <- possible_artifacts()

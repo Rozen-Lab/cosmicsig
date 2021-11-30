@@ -2,12 +2,15 @@
 % Please edit documentation in R/rare_signatures.R
 \name{rare_signatures}
 \alias{rare_signatures}
-\title{Return a character vector of the IDs of rare SBS96 signatures}
+\title{Return a character vector of the names of rare SBS96 signatures}
 \usage{
 rare_signatures()
 }
+\value{
+A character vector of the names of rare SBS96 signatures.
+}
 \description{
-Return a character vector of the IDs of rare SBS96 signatures
+Return a character vector of the names of rare SBS96 signatures
 }
 \examples{
 rare_sigs <- rare_signatures()

@@ -1,6 +1,9 @@
-#' Return a character vector of the IDs of possible SBS96 signature artifacts
+#' Return a character vector of the names of possible SBS96 signature artifacts
 #'
 #' @export
+#'
+#' @return A character vector of the names of possible SBS96 signature
+#'   artifacts.
 #'
 #' @examples
 #' artifact_sigs <- possible_artifacts()

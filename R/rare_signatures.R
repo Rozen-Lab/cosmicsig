@@ -1,6 +1,8 @@
-#' Return a character vector of the IDs of rare SBS96 signatures
+#' Return a character vector of the names of rare SBS96 signatures
 #'
 #' @export
+#'
+#' @return A character vector of the names of rare SBS96 signatures.
 #'
 #' @examples
 #' rare_sigs <- rare_signatures()
