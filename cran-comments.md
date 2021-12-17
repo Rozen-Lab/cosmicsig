@@ -5,6 +5,7 @@ This is a resubmission. In this version I have:
 
 ## Test environments
 * Local Windows 10 install: R 4.1.2
+* Local OS X Big Sur install: R 4.1.2
 * Local CentOS 8: R 4.1.2
 
 ## R CMD check results
