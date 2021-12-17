@@ -28,4 +28,4 @@ remotes::install_github(repo = "Rozen-Lab/cosmicsig", ref = "master")
 
 ## Reference manual
 
-<https://github.com/Rozen-Lab/cosmicsig/blob/master/cosmicsig_1.0.4.pdf>
+<https://github.com/Rozen-Lab/cosmicsig/blob/master/cosmicsig_1.0.5.pdf>

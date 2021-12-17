@@ -1,19 +1,8 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Updated the DESCRIPTION to use single quotes for package name.
+* Updated the DESCRIPTION to remove false-positive spelling mistakes.
 
-* Deleted the extra word "into" in DESCRIPTION.
-
-* Deleted "| file LICENSE" in DESCRIPTION and the file.
-
-* Used Authors@R field in DESCRIPTION.
-
-* Added Rd-tag \value in possible_artifacts.Rd and rare_signatures.Rd.
-
-* Removed \dontrun{} in the examples.
-
-* Wrapped examples that need packages in 'Suggests' in `if(requireNamespace("pkgname")){}`.
 
 ## Test environments
 * Local Windows 10 install: R 4.1.2
