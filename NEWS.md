@@ -1,3 +1,6 @@
+# cosmicsig 1.0.7
+* Fixed the URL in README.
+
 # cosmicsig 1.0.6
 * Removed some long running examples.
 

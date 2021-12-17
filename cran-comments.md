@@ -1,7 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Removed some long running examples.
+* Fixed the URL in README.
 
 ## Test environments
 * Local Windows 10 install: R 4.1.2
