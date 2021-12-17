@@ -1,3 +1,6 @@
+# cosmicsig 1.0.6
+* Removed some long running examples.
+
 # cosmicsig 1.0.5
 * Updated the DESCRIPTION to remove false-positive misspellings.
 

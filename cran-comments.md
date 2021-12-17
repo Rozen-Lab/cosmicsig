@@ -1,8 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Updated the DESCRIPTION to remove false-positive spelling mistakes.
-
+* Removed some long running examples.
 
 ## Test environments
 * Local Windows 10 install: R 4.1.2

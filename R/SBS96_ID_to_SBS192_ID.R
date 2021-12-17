@@ -12,8 +12,8 @@
 #'   have "-E" (for exome) post-pended.
 #'
 #' @examples
-#' SBS96_ids <- c("SBS1", "SBS23", "SBS25")
-#' SBS192_ids <- SBS96_ID_to_SBS192_ID(SBS96_ids)
+#' sbs96_ids <- c("SBS1", "SBS23", "SBS25")
+#' sbs192_ids <- SBS96_ID_to_SBS192_ID(sbs96_ids)
 SBS96_ID_to_SBS192_ID <- function(sig_ids) {
   need_minus_E <-
     c(

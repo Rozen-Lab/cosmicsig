@@ -33,26 +33,12 @@ added in COSMIC v3.2. See the news from COSMIC release for more details
 
 \section{Remark}{
 
-The signatures are all genome signatures. See examples below for transforming
-genome signatures to exome signatures. \cr See \link[ICAMS]{CatalogRowOrder}
+The signatures are all genome signatures. \cr See \link[ICAMS]{CatalogRowOrder}
 in package ICAMS for the classification of mutation types.
 }
 
 \examples{
-# As the abundances of the source sequence of the mutations vary between genome
-# and exome, users can use package ICAMS to do the transformations.
-if (!requireNamespace("ICAMS")) {
-  install.packages("ICAMS")
-  library(ICAMS)
+sbs96_sig_v3.2 <- COSMIC_v3.2$signature$GRCh37$SBS96
 
-  SBS96_sig_GRCh37_genome <- COSMIC_v3.2$signature$GRCh37$SBS96
-
-  # Transform SBS96 GRCh37 genome signatures to GRCh37 exome signatures
-  SBS96_sig_GRCh37_exome <- TransformCatalog(
-    catalog = SBS96_sig_GRCh37_genome,
-    target.ref.genome = "GRCh37",
-    target.region = "exome"
-  )
-}
 }
 \keyword{datasets}

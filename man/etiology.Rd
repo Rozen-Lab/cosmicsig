@@ -32,6 +32,6 @@ List of mutational signatures's proposed etiology summarized from COSMIC,
 Catalogue Of Somatic Mutations In Cancer (as of March 2021)
 }
 \examples{
-SBS96_etiology <- etiology$SBS96
+sbs96_etiology <- etiology$SBS96
 }
 \keyword{datasets}
