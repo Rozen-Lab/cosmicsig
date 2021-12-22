@@ -17,6 +17,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/Rozen-Lab/cosmicsig/workflows/R-CMD-check/badge.svg)](https://github.com/Rozen-Lab/cosmicsig/actions)
+[![CRAN status](https://www.r-pkg.org/badges/version/cosmicsig)](https://CRAN.R-project.org/package=cosmicsig)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <!-- badges: end -->
 
 ## Purpose
@@ -26,6 +28,14 @@ Cancer (https://cancer.sanger.ac.uk/signatures/). There are also some helper
 functions for handling COSMIC signatures.
 
 ## Installation
+
+### Get the stable version
+
+``` r
+install.packages("cosmicsig")
+```
+
+### Get the development version
 
 Install cosmicsig from the master branch on [GitHub](https://github.com/):
 
