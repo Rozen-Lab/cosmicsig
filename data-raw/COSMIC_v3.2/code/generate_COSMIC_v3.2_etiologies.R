@@ -4,10 +4,15 @@ cat(getwd(), "\n")
 
 tmp.SBS96 <-
   data.table::fread("data-raw/COSMIC_v3.2/data/etiology/COSMIC_v3.2_SBS_proposed_etiology.csv")
+msighdp.SBS96 <-
+  data.table::fread("data-raw/COSMIC_v3.2/data/etiology/liver_msighdp_sig_etiology.csv")
+sigpro.SBS96 <-
+  data.table::fread("data-raw/COSMIC_v3.2/data/etiology/liver_sigpro_sig_etiology.csv")
+tmp2.SBS96 <- rbind(tmp.SBS96, msighdp.SBS96, sigpro.SBS96)
 sigs.etiologies.SBS96 <-
-  matrix(tmp.SBS96$proposed_etiology,
+  matrix(tmp2.SBS96$proposed_etiology,
     ncol = 1,
-    dimnames = list(tmp.SBS96$name, "proposed_etiology")
+    dimnames = list(tmp2.SBS96$name, "proposed_etiology")
   )
 
 tmp.SBS192 <-
