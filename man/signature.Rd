@@ -6,21 +6,25 @@
 \title{Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
 Cancer (v3.2 - March 2021)}
 \format{
-A list with the following elements:\preformatted{* GRCh37: Homo sapiens (human) genome assembly GRCh37.
-* GRCh38: Homo sapiens (human) genome assembly GRCh38.
-* mm9: Mus musculus (house mouse) genome assembly mm9.
-* mm10: Mus musculus (house mouse) genome assembly mm10.
-* rn6: Rattus norvegicus (Norway rat) genome assembly rn6.
+A list with the following elements:
+\itemize{
+\item GRCh37: Homo sapiens (human) genome assembly GRCh37.
+\item GRCh38: Homo sapiens (human) genome assembly GRCh38.
+\item mm9: Mus musculus (house mouse) genome assembly mm9.
+\item mm10: Mus musculus (house mouse) genome assembly mm10.
+\item rn6: Rattus norvegicus (Norway rat) genome assembly rn6.
+}
 
 Each element contains the sub elements:
-
-* SBS96: Strand-agnostic single-base substitutions in trinucleotide context.
-* DBS78: Strand-agnostic doublet-base substitutions.
+\itemize{
+\item SBS96: Strand-agnostic single-base substitutions in trinucleotide context.
+\item DBS78: Strand-agnostic doublet-base substitutions.
+}
 
 Element GRCh37 contains the additional sub elements:
-
-* SBS192: Transcriptionally stranded single-base substitutions in trinucleotide context.
-* ID: Strand-agnostic indels (short insertions and deletions).
+\itemize{
+\item SBS192: Transcriptionally stranded single-base substitutions in trinucleotide context.
+\item ID: Strand-agnostic indels (short insertions and deletions).
 }
 }
 \source{
