@@ -1,3 +1,6 @@
+# cosmicsig 1.1.0
+* Added `@aliases cosmicsig-package` in cosmicsig.R according to CRAN's suggestion.
+
 # cosmicsig 1.0.7
 * Fixed the URL in README.
 

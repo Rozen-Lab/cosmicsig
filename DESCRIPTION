@@ -1,6 +1,6 @@
 Package: cosmicsig
 Title: Mutational Signatures from COSMIC (Catalogue of Somatic Mutations in Cancer)
-Version: 1.0.7
+Version: 1.1.0
 Authors@R: 
     c(person(given = "Steven",
              family = "Rozen",
@@ -31,7 +31,7 @@ Language: en-US
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Depends: R (>= 3.5)
 Suggests: 
     testthat (>= 3.0.0),

@@ -67,4 +67,5 @@
 #'
 #' @docType package
 #' @name cosmicsig
+#' @aliases cosmicsig-package
 NULL

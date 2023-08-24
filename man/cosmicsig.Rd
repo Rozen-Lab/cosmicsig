@@ -3,6 +3,7 @@
 \docType{package}
 \name{cosmicsig}
 \alias{cosmicsig}
+\alias{cosmicsig-package}
 \title{cosmicsig: A package of mutational signatures from COSMIC (Catalogue
 Of Somatic Mutations In Cancer)
 \url{https://cancer.sanger.ac.uk/signatures/}.}
