@@ -6,7 +6,7 @@
 #'   In addition, some proposed etiologies are more akin to associations than
 #'   specific, mechanistic causes.
 #'
-#' @param mutation_type Character string, one of "SBS96", "DBS78",
+#' @param mutation_type Character string, one of "SBS96", "SBS192", "DBS78",
 #'   "ID".
 #'
 #' @param sig_id Character vector with signature ids, e.g. \code{c("SBS3",
@@ -25,7 +25,7 @@
 #' get_etiology(mutation_type = "ID", sig_id = c("ID1", "foo", "ID3"))
 #' @export
 get_etiology <- function(mutation_type, sig_id) {
-  legal <- c("SBS96", "DBS78", "ID")
+  legal <- c("SBS96", "SBS192", "DBS78", "ID")
   if (!mutation_type %in% legal) {
     stop(
       "get_etiology: mutation_type must be one of ",
@@ -33,17 +33,22 @@ get_etiology <- function(mutation_type, sig_id) {
     )
   }
 
-  mm <- cosmicsig::etiology[[mutation_type]]
+  if (mutation_type == "SBS192") {
+    mm <- cosmicsig::COSMIC_v3.2$etiology$SBS192
+  } else {
+    mm <- cosmicsig::etiology[[mutation_type]]
+  }
+
   rr <- sapply(sig_id,
-    function(one.id) {
-      if (one.id %in% rownames(mm)) {
-        return(mm[one.id, ])
-      } else {
-        return("")
-      }
-    },
-    USE.NAMES = TRUE,
-    simplify = TRUE
+               function(one.id) {
+                 if (one.id %in% rownames(mm)) {
+                   return(mm[one.id, ])
+                 } else {
+                   return("")
+                 }
+               },
+               USE.NAMES = TRUE,
+               simplify = TRUE
   )
   return(rr)
 }
