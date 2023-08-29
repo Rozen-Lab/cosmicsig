@@ -1,11 +1,13 @@
 # cosmicsig 1.1.0
 * Added new exported package data variable `COSMIC_v3.3`.
 
+* Added `@aliases cosmicsig-package` in cosmicsig.R according to CRAN's suggestion.
+
 * Updated documentation for variable `signature` and `etiology`.
 
 * Updated documentation for package help page.
 
-* Added `@aliases cosmicsig-package` in cosmicsig.R according to CRAN's suggestion.
+* Removed SBS192 signature etiology information from exported data `etiology`.
 
 # cosmicsig 1.0.7
 * Fixed the URL in README.

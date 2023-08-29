@@ -15,7 +15,7 @@ Description: A data package with 2 main package variables: 'signature' and 'etio
      The 'signature' variable contains the latest mutational signature profiles 
      released on COSMIC <https://cancer.sanger.ac.uk/signatures/> for 3 mutation
      types:
-     * single base substitutions in the context of preceding and following bases,
+     * Single base substitutions in the context of preceding and following bases,
      * Doublet base substitutions, and
      * Small insertions and deletions.
     The 'etiology' variable provides the known or hypothesized causes of signatures. 
