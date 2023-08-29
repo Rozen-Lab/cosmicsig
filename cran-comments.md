@@ -1,12 +1,13 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Fixed the URL in README.
+* Added new exported package data variable `COSMIC_v3.3`.
+
+* Added `@aliases cosmicsig-package` in cosmicsig.R according to CRAN's suggestion.
 
 ## Test environments
-* Local Windows 10 install: R 4.1.2
-* Local OS X Big Sur install: R 4.1.2
-* Local CentOS 8: R 4.1.2
+* Local Windows 11 install: R 4.3.1
+* Local CentOS Stream 8: R 4.3.1
 
 ## R CMD check results
 There were no ERRORs or WARNINGs.
