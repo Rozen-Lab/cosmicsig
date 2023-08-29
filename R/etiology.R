@@ -1,11 +1,10 @@
 #' List of mutational signatures's proposed etiology summarized from COSMIC,
-#' Catalogue Of Somatic Mutations In Cancer (as of March 2021)
+#' Catalogue Of Somatic Mutations In Cancer (v3.3 - June 2022)
 #'
 #' @format
 #'
 #' A list with the elements:
 #' * SBS96
-#' * SBS192
 #' * DBS78
 #' * ID
 #'

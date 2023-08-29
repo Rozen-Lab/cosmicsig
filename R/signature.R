@@ -1,5 +1,5 @@
 #' Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
-#' Cancer (v3.2 - March 2021)
+#' Cancer (v3.3 - June 2022)
 #'
 #' @source \url{https://cancer.sanger.ac.uk/signatures/}.
 #'
@@ -18,17 +18,11 @@
 #'
 #' Element GRCh37 contains the additional sub elements:
 #'
-#' * SBS192: Transcriptionally stranded single-base substitutions in trinucleotide context.
 #' * ID: Strand-agnostic indels (short insertions and deletions).
 #'
 #' @section Remark:
 #' The signatures are all genome signatures. \cr See \link[ICAMS]{CatalogRowOrder}
 #' in package ICAMS for the classification of mutation types.
-#'
-#' @section Note:
-#' SBS10c, SBS10d, SBS91, SBS92, SBS93, SBS94 (total 6) new SBS signatures were
-#' added in COSMIC v3.2. See the news from COSMIC release for more details
-#' \url{https://cosmic-blog.sanger.ac.uk/cosmic-mutational-signatures-release-v3-2/}
 #'
 #' @name signature
 #'

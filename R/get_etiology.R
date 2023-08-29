@@ -6,7 +6,7 @@
 #'   In addition, some proposed etiologies are more akin to associations than
 #'   specific, mechanistic causes.
 #'
-#' @param mutation_type Character string, one of "SBS96", "SBS192", "DBS78",
+#' @param mutation_type Character string, one of "SBS96", "DBS78",
 #'   "ID".
 #'
 #' @param sig_id Character vector with signature ids, e.g. \code{c("SBS3",
@@ -25,7 +25,7 @@
 #' get_etiology(mutation_type = "ID", sig_id = c("ID1", "foo", "ID3"))
 #' @export
 get_etiology <- function(mutation_type, sig_id) {
-  legal <- c("SBS96", "SBS192", "DBS78", "ID")
+  legal <- c("SBS96", "DBS78", "ID")
   if (!mutation_type %in% legal) {
     stop(
       "get_etiology: mutation_type must be one of ",
