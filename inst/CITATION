@@ -1,12 +1,9 @@
-citHeader("To cite R package cosmicsig in publications use:")
-
-citEntry(
-  entry    = "Manual",
+bibentry(
+  bibtype  = "Manual",
   title    = "cosmicsig: Mutational Signatures Data from COSMIC (the Catalogue of Somatic Mutations in Cancer)",
   author   = c(person("Steven", "Rozen"),
                person("Nanhai", "Jiang")),
   year     = "2023",
   note     = "R package version 1.1.0",
-  textVersion = paste0("Rozen SG, Jiang NH (2023). ",
-  "cosmicsig: Mutational Signatures Data from COSMIC (the Catalogue of Somatic Mutations in Cancer). ", "R package version 1.1.0.")
+  url      = "https://github.com/Rozen-Lab/cosmicsig"
 )

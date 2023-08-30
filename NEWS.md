@@ -1,3 +1,6 @@
+# cosmicsig 1.1.1
+* Updated CITATION file using bibentry instead.
+
 # cosmicsig 1.1.0
 * Added new exported package data variable `COSMIC_v3.3`.
 
