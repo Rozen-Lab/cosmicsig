@@ -1,7 +1,7 @@
-# cosmicsig 1.1.1
+# cosmicsig 1.1.1 (submitted to CRAN)
 * Updated CITATION file using bibentry instead.
 
-# cosmicsig 1.1.0
+# cosmicsig 1.1.0 
 * Added new exported package data variable `COSMIC_v3.3`.
 
 * Added `@aliases cosmicsig-package` in cosmicsig.R according to CRAN's suggestion.
@@ -12,7 +12,7 @@
 
 * Removed SBS192 signature etiology information from exported data `etiology`.
 
-# cosmicsig 1.0.7
+# cosmicsig 1.0.7 (submitted to CRAN)
 * Fixed the URL in README.
 
 # cosmicsig 1.0.6
