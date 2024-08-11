@@ -4,7 +4,7 @@
 \name{signature}
 \alias{signature}
 \title{Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
-Cancer (v3.3 - June 2022)}
+Cancer (v3.4 - October 2023)}
 \format{
 A list with the following elements:
 \itemize{
@@ -34,7 +34,7 @@ signature
 }
 \description{
 Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
-Cancer (v3.3 - June 2022)
+Cancer (v3.4 - October 2023)
 }
 \section{Remark}{
 

@@ -1,8 +1,8 @@
-#' Return a character vector of the names of possible SBS96 signature artifacts
+#' Return a character vector of the names of possible signature artifacts
 #'
 #' @export
 #'
-#' @return A character vector of the names of possible SBS96 signature
+#' @return A character vector of the names of possible signature
 #'   artifacts.
 #'
 #' @examples
@@ -12,6 +12,7 @@ possible_artifacts <- function() {
     "SBS27", "SBS43", "SBS45", "SBS46", "SBS47",
     "SBS48", "SBS49", "SBS50", "SBS51", "SBS52",
     "SBS53", "SBS54", "SBS55", "SBS56",
-    "SBS57", "SBS58", "SBS59", "SBS60"
+    "SBS57", "SBS58", "SBS59", "SBS60", "SBS95",
+    "DBS14"
   ))
 }

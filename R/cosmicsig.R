@@ -30,7 +30,7 @@
 #'
 #' Earlier releases are available in the
 #' variables COSMIC_*version*, e.g.
-#' \code{\link{COSMIC_v3.2}}.
+#' \code{\link{COSMIC_v3.3}}.
 #'
 #' The profiles of SBSs signatures depend on the
 #' frequencies of trinucleotides in a genome
@@ -55,7 +55,6 @@
 #
 #' @source \url{https://cancer.sanger.ac.uk/signatures/}.
 #'
-#' @docType package
 #' @name cosmicsig
 #' @aliases cosmicsig-package
 NULL
