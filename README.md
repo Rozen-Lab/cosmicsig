@@ -26,16 +26,15 @@ are also some helper functions for handling COSMIC signatures.
 install.packages("cosmicsig")
 ```
 
-### Get the development version
+### Get the latest release
 
-Install cosmicsig from the master branch on
-[GitHub](https://github.com/):
+Install cosmicsig from [GitHub](https://github.com/):
 
 ``` r
 if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }
-remotes::install_github(repo = "Rozen-Lab/cosmicsig", ref = "master")
+remotes::install_github(repo = "Rozen-Lab/cosmicsig", ref = "v1.2.0-branch")
 ```
 
 ## Reference manual
