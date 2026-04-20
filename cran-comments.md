@@ -31,8 +31,24 @@ All jobs run `R CMD check --as-cran` (via
 
 ## R CMD check results
 
-All five CI jobs pass with 0 ERRORs and 0 WARNINGs. 0 NOTEs after
-adding the maintainer-only `CLAUDE.md` file to `.Rbuildignore`.
+All five CI jobs pass with 0 ERRORs and 0 WARNINGs.
+
+`R CMD check --as-cran` emits one informational NOTE:
+
+```
+Found the following URLs which should use \doi (with the DOI name only):
+  File 'cosmicsig.Rd':
+    https://doi.org/10.1038/s41586-020-1943-3
+```
+
+The DOI reference is written as
+`\href{https://doi.org/10.1038/s41586-020-1943-3}{doi:10.1038/s41586-020-1943-3}`
+rather than the `\doi{...}` macro because the `\doi{}` macro expands
+to an `\Sexpr[results=rd]{tools:::Rd_expr_doi(...)}` call that is not
+processed by all static HTML renderers (users have reported seeing the
+literal Sexpr in online HTML snapshots). The `\href{}{}` form
+renders correctly as a hyperlink to the DOI in both PDF and HTML help
+pages.
 
 ## Downstream dependencies
 

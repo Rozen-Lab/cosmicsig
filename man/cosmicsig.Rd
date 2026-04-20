@@ -12,7 +12,7 @@ Of Somatic Mutations In Cancer)
 \description{
 For a general introduction to mutational signatures
 and the techniques used to discover them, see
-Alexandrov et al., 2020 \doi{10.1038/s41586-020-1943-3}.
+Alexandrov et al., 2020 \href{https://doi.org/10.1038/s41586-020-1943-3}{doi:10.1038/s41586-020-1943-3}.
 }
 \details{
 This is a data package with 2 main package variables:

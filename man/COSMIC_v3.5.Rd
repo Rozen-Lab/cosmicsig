@@ -11,7 +11,11 @@ A list with two elements, \code{signature} and \code{etiology}.
 \item \code{signature} is a list with the same structure as
 \code{\link{signature}}.
 \item \code{etiology} is a list with the same structure as
-\code{\link{etiology}}.
+\code{\link{etiology}}. The etiology information is deprecated
+and is no longer being updated. It is not versioned at the COSMIC
+website and may not reflect signatures added in recent COSMIC
+releases. For authoritative, up-to-date etiologies consult
+\url{https://cancer.sanger.ac.uk/signatures/} directly.
 }
 }
 \source{

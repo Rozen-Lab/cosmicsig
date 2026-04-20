@@ -18,7 +18,6 @@ Description: A data package with 2 main package variables: 'signature' and 'etio
      * Single base substitutions in the context of preceding and following bases,
      * Doublet base substitutions, and
      * Small insertions and deletions.
-    The 'etiology' variable provides the known or hypothesized causes of signatures. 
     'cosmicsig' stands for COSMIC signatures. Please run ?'cosmicsig' for more
     information.
 License: GPL-3
