@@ -9,6 +9,8 @@ This is a feature release. In this version:
 
 * Removed the `ICAMS` package from documentation dependencies.
   `cosmicsig` no longer depends on, imports, or suggests `ICAMS`.
+  This change was required by CRAN since `ICAMS` is currenlty
+  not in CRAN.
 
 * Marked the `etiology` data object and the `get_etiology()` function
   as deprecated in their documentation. The etiology information is
@@ -31,9 +33,12 @@ All jobs run `R CMD check --as-cran` (via
 
 ## R CMD check results
 
-All five CI jobs pass with 0 ERRORs and 0 WARNINGs.
+0 ERRORs, 0 WARNINGs across all five environments listed above.
 
-`R CMD check --as-cran` emits one informational NOTE:
+On CI the jobs run with `NOT_CRAN=true` (the r-lib/actions default),
+which skips the "CRAN incoming feasibility" check, so CI reports
+`Status: OK`. A local `R CMD check --as-cran` run on the built tarball
+(with the incoming check enabled) reports one informational NOTE:
 
 ```
 Found the following URLs which should use \doi (with the DOI name only):
@@ -41,14 +46,14 @@ Found the following URLs which should use \doi (with the DOI name only):
     https://doi.org/10.1038/s41586-020-1943-3
 ```
 
-The DOI reference is written as
+The DOI reference is deliberately written as
 `\href{https://doi.org/10.1038/s41586-020-1943-3}{doi:10.1038/s41586-020-1943-3}`
-rather than the `\doi{...}` macro because the `\doi{}` macro expands
-to an `\Sexpr[results=rd]{tools:::Rd_expr_doi(...)}` call that is not
-processed by all static HTML renderers (users have reported seeing the
-literal Sexpr in online HTML snapshots). The `\href{}{}` form
-renders correctly as a hyperlink to the DOI in both PDF and HTML help
-pages.
+rather than the `\doi{...}` macro. The `\doi{}` macro expands to an
+`\Sexpr[results=rd]{tools:::Rd_expr_doi(...)}` call that is not
+processed by all static HTML renderers (users reported seeing the
+literal Sexpr in online HTML snapshots of the help page). The
+`\href{}{}` form renders correctly as a hyperlink to the DOI in both
+the PDF and HTML help.
 
 ## Downstream dependencies
 
