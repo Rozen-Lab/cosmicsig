@@ -4,7 +4,7 @@
 \name{etiology}
 \alias{etiology}
 \title{List of mutational signatures' proposed etiology summarized from COSMIC,
-Catalogue Of Somatic Mutations In Cancer (v3.4 - October 2023)}
+Catalogue Of Somatic Mutations In Cancer (v3.5 - November 2025)}
 \format{
 A list with the elements:
 \itemize{
@@ -28,7 +28,7 @@ etiology
 }
 \description{
 List of mutational signatures' proposed etiology summarized from COSMIC,
-Catalogue Of Somatic Mutations In Cancer (v3.4 - October 2023)
+Catalogue Of Somatic Mutations In Cancer (v3.5 - November 2025)
 }
 \examples{
 sbs96_etiology <- etiology$SBS96

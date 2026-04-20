@@ -30,7 +30,7 @@
 #'
 #' Earlier releases are available in the
 #' variables COSMIC_*version*, e.g.
-#' \code{\link{COSMIC_v3.3}}.
+#' \code{\link{COSMIC_v3.4}}.
 #'
 #' The profiles of SBSs signatures depend on the
 #' frequencies of trinucleotides in a genome

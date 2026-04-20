@@ -43,9 +43,9 @@ Install cosmicsig from [GitHub](https://github.com/):
 if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }
-remotes::install_github(repo = "Rozen-Lab/cosmicsig", ref = "v1.2.0-branch")
+remotes::install_github(repo = "Rozen-Lab/cosmicsig", ref = "v1.3.0-branch")
 ```
 
 ## Reference manual
 
-https://github.com/Rozen-Lab/cosmicsig/blob/v1.2.0-branch/cosmicsig_1.2.0.pdf
+https://github.com/Rozen-Lab/cosmicsig/blob/v1.3.0-branch/cosmicsig_1.3.0.pdf

@@ -1,3 +1,6 @@
+# cosmicsig 1.3.0
+* Added new exported package data variable `COSMIC_v3.5`.
+
 # cosmicsig 1.2.0 
 * Added new exported package data variable `COSMIC_v3.4`.
 
