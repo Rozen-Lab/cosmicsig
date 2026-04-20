@@ -26,7 +26,11 @@ specific, mechanistic causes.
 }
 \section{Note}{
 
-The etiology information is not versioned at the COSMIC website.
+The etiology information is \strong{deprecated} and is no longer being
+updated. It is not versioned at the COSMIC website and may not
+reflect signatures added in recent COSMIC releases. For authoritative,
+up-to-date etiologies consult
+\url{https://cancer.sanger.ac.uk/signatures/} directly.
 }
 
 \examples{

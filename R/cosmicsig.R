@@ -28,6 +28,10 @@
 #' mutational signatures. In general, it is better to use
 #' \code{\link{get_etiology}}.
 #'
+#' **Deprecation note:** the etiology information is no longer being
+#' updated and may be incomplete for recent COSMIC releases. Consult
+#' \url{https://cancer.sanger.ac.uk/signatures/} for current etiologies.
+#'
 #' Earlier releases are available in the
 #' variables COSMIC_*version*, e.g.
 #' \code{\link{COSMIC_v3.4}}.

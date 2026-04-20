@@ -1,5 +1,12 @@
 # cosmicsig 1.3.0
 * Added new exported package data variable `COSMIC_v3.5`.
+* Removed package ICAMS dependency (was a documentation dependency only).
+* Marked the `etiology` data object and the `get_etiology()` function
+  as deprecated. The etiology information is not versioned at COSMIC
+  and is no longer being updated in this package; it may be incomplete
+  for signatures added in recent COSMIC releases. Users should consult
+  <https://cancer.sanger.ac.uk/signatures/> for current etiologies.
+  Both remain exported for backwards compatibility.
 
 # cosmicsig 1.2.0 
 * Added new exported package data variable `COSMIC_v3.4`.

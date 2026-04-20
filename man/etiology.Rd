@@ -30,6 +30,15 @@ etiology
 List of mutational signatures' proposed etiology summarized from COSMIC,
 Catalogue Of Somatic Mutations In Cancer (v3.5 - November 2025)
 }
+\section{Deprecation note}{
+
+The etiology information is \strong{deprecated} and is no longer being
+updated. It is not versioned at the COSMIC website and may not
+reflect signatures added in recent COSMIC releases. For authoritative,
+up-to-date etiologies consult
+\url{https://cancer.sanger.ac.uk/signatures/} directly.
+}
+
 \examples{
 sbs96_etiology <- etiology$SBS96
 }
