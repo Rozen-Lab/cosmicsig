@@ -18,13 +18,21 @@ This is a feature release. In this version:
 
 ## Test environments
 
-* Local Ubuntu Linux: R 4.x
-* GitHub Actions R-CMD-check workflow (ubuntu-latest, macOS-latest,
-  windows-latest; R release and devel)
+Checked on GitHub Actions across a five-entry matrix:
+
+* macos-latest, R release
+* windows-latest, R release
+* ubuntu-latest, R devel
+* ubuntu-latest, R release
+* ubuntu-latest, R oldrel-1
+
+All jobs run `R CMD check --as-cran` (via
+`r-lib/actions/check-r-package@v2` with `--no-manual --as-cran`).
 
 ## R CMD check results
 
-`R CMD check --as-cran` produced no ERRORs or WARNINGs.
+All five CI jobs pass with 0 ERRORs and 0 WARNINGs. 0 NOTEs after
+adding the maintainer-only `CLAUDE.md` file to `.Rbuildignore`.
 
 ## Downstream dependencies
 

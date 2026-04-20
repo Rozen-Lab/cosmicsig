@@ -13,3 +13,4 @@
 ^\.claude$
 ^\.vscode$
 ^\.plans$
+^CLAUDE\.md$
