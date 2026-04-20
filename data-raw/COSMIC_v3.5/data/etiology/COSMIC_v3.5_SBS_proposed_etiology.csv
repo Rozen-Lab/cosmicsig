@@ -1,0 +1,98 @@
+name,proposed_etiology
+SBS1,Deamination of 5-methylcytosine
+SBS2,APOBEC activity
+SBS3,Defective HR DNA repair; BRCA1/2 mutation
+SBS4,Tobacco smoking
+SBS5,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS6,Defective DNA mismatch repair
+SBS7a,Ultraviolet light exposure
+SBS7b,Ultraviolet light exposure
+SBS7c,Ultraviolet light exposure
+SBS7d,Ultraviolet light exposure
+SBS8,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS9,"In part, polymerase eta activity"
+SBS10a,POLE mutation
+SBS10b,POLE mutation
+SBS10c,Defective POLD1 proofreading
+SBS10d,Defective POLD1 proofreading
+SBS11,Temozolomide treatment
+SBS12,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS13,APOBEC activity
+SBS14,POLE mutation and mismatch repair deficiency
+SBS15,Defective DNA mismatch repair
+SBS16,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS17a,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS17b,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS18,Reactive oxygen species
+SBS19,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS20,POLD1 mutation and mismatch repair deficiency
+SBS21,Defective DNA mismatch repair
+SBS22a,Aristolochic acid exposure
+SBS22b,Aristolochic acid exposure
+SBS23,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS24,Aflatoxin exposure
+SBS25,Chemotherapy
+SBS26,Defective DNA mismatch repair
+SBS27,Possible sequencing artefact
+SBS28,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS29,Tobacco chewing
+SBS30,Defective base excision repair; NTHL1 mutation
+SBS31,Platinum treatment
+SBS32,Azathioprine treatment
+SBS33,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS34,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS35,Platinum treatment
+SBS36,Defective base excision repair; MUTYH mutation
+SBS37,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS38,Indirect effect of ultraviolet light
+SBS39,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS40a,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS40b,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS40c,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS41,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS42,Haloalkane exposure
+SBS43,Possible sequencing artefact
+SBS44,Defective DNA mismatch repair
+SBS45,Possible sequencing artefact
+SBS46,Possible sequencing artefact
+SBS47,Possible sequencing artefact
+SBS48,Possible sequencing artefact
+SBS49,Possible sequencing artefact
+SBS50,Possible sequencing artefact
+SBS51,Possible sequencing artefact
+SBS52,Possible sequencing artefact
+SBS53,Possible sequencing artefact
+SBS54,Possible sequencing artefact
+SBS55,Possible sequencing artefact
+SBS56,Possible sequencing artefact
+SBS57,Possible sequencing artefact
+SBS58,Possible sequencing artefact
+SBS59,Possible sequencing artefact
+SBS60,Possible sequencing artefact
+SBS84,Activity of AID
+SBS85,Indirect effects of AID
+SBS86,Unknown chemotherapy
+SBS87,Thiopurine chemotherapy
+SBS88,Colibactin exposure
+SBS89,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS90,Duocarmycin exposure
+SBS91,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS92,Tobacco smoking
+SBS93,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS94,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS95,Possible sequencing artefact
+SBS96,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS97,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS98,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS99,Melphalan exposure
+SBS100,Tobacco smoking
+SBS101,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS102,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS103,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS104,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS105,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS106,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS107,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS108,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"
+SBS109,Tobacco smoking
+SBS110,"please check on the COSMIC web site, https://cancer.sanger.ac.uk/signatures/"

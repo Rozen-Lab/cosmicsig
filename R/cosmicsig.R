@@ -28,9 +28,13 @@
 #' mutational signatures. In general, it is better to use
 #' \code{\link{get_etiology}}.
 #'
+#' **Deprecation note:** the etiology information is no longer being
+#' updated and may be incomplete for recent COSMIC releases. Consult
+#' \url{https://cancer.sanger.ac.uk/signatures/} for current etiologies.
+#'
 #' Earlier releases are available in the
 #' variables COSMIC_*version*, e.g.
-#' \code{\link{COSMIC_v3.2}}.
+#' \code{\link{COSMIC_v3.4}}.
 #'
 #' The profiles of SBSs signatures depend on the
 #' frequencies of trinucleotides in a genome
@@ -55,7 +59,6 @@
 #
 #' @source \url{https://cancer.sanger.ac.uk/signatures/}.
 #'
-#' @docType package
 #' @name cosmicsig
 #' @aliases cosmicsig-package
 NULL

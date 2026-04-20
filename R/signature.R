@@ -1,5 +1,5 @@
 #' Mutational signatures data from COSMIC, Catalogue Of Somatic Mutations In
-#' Cancer (v3.3 - June 2022)
+#' Cancer (v3.5 - November 2025)
 #'
 #' @source \url{https://cancer.sanger.ac.uk/signatures/}.
 #'
@@ -21,8 +21,8 @@
 #' * ID: Strand-agnostic indels (short insertions and deletions).
 #'
 #' @section Remark:
-#' The signatures are all genome signatures. \cr See \link[ICAMS]{CatalogRowOrder}
-#' in package ICAMS for the classification of mutation types.
+#' The signatures are all genome signatures.
+#' See \url{https://cancer.sanger.ac.uk/signatures/}.
 #'
 #' @name signature
 #'

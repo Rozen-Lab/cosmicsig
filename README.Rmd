@@ -35,17 +35,17 @@ functions for handling COSMIC signatures.
 install.packages("cosmicsig")
 ```
 
-### Get the development version
+### Get the latest release 
 
-Install cosmicsig from the master branch on [GitHub](https://github.com/):
+Install cosmicsig from [GitHub](https://github.com/):
 
 ``` r
 if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }
-remotes::install_github(repo = "Rozen-Lab/cosmicsig", ref = "master")
+remotes::install_github(repo = "Rozen-Lab/cosmicsig", ref = "v1.3.0-branch")
 ```
 
 ## Reference manual
 
-https://github.com/Rozen-Lab/cosmicsig/blob/v1.1.1-branch/cosmicsig_1.1.1.pdf
+https://github.com/Rozen-Lab/cosmicsig/blob/v1.3.0-branch/cosmicsig_1.3.0.pdf
