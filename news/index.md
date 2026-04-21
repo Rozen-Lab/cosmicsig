@@ -1,0 +1,109 @@
+# Changelog
+
+## cosmicsig 1.3.1
+
+CRAN release: 2026-04-21
+
+- Use the `\doi{}` Rd macro for the Alexandrov et al. 2020 reference on
+  the package help page, replacing the previous
+  `\href{https://doi.org/...}{doi:...}` form, as requested by CRAN.
+
+## cosmicsig 1.3.0
+
+- Added new exported package data variable `COSMIC_v3.5`.
+- Removed package ICAMS dependency (was a documentation dependency
+  only).
+- Marked the `etiology` data object and the
+  [`get_etiology()`](https://rozen-lab.github.io/cosmicsig/reference/get_etiology.md)
+  function as deprecated. The etiology information is not versioned at
+  COSMIC and is no longer being updated in this package; it may be
+  incomplete for signatures added in recent COSMIC releases. Users
+  should consult <https://cancer.sanger.ac.uk/signatures/> for current
+  etiologies. Both remain exported for backwards compatibility.
+
+## cosmicsig 1.2.0
+
+- Added new exported package data variable `COSMIC_v3.4`.
+
+## cosmicsig 1.1.1 (submitted to CRAN)
+
+CRAN release: 2023-08-30
+
+- Updated CITATION file using bibentry instead.
+
+## cosmicsig 1.1.0
+
+- Added new exported package data variable `COSMIC_v3.3`.
+
+- Added `@aliases cosmicsig-package` in cosmicsig.R according to CRAN’s
+  suggestion.
+
+- Updated documentation for variable `signature` and `etiology`.
+
+- Updated documentation for package help page.
+
+- Removed SBS192 signature etiology information from exported data
+  `etiology`.
+
+## cosmicsig 1.0.7 (submitted to CRAN)
+
+CRAN release: 2021-12-20
+
+- Fixed the URL in README.
+
+## cosmicsig 1.0.6
+
+- Removed some long running examples.
+
+## cosmicsig 1.0.5
+
+- Updated the DESCRIPTION to remove false-positive misspellings.
+
+## cosmicsig 1.0.4
+
+- Updated the DESCRIPTION to use single quotes for package name.
+
+- Deleted the extra word “into” in DESCRIPTION.
+
+- Deleted “\| file LICENSE” in DESCRIPTION and the file.
+
+- Used <Authors@R> field in DESCRIPTION.
+
+- Added Rd-tag in possible_artifacts.Rd and rare_signatures.Rd.
+
+- Removed in the examples.
+
+- Wrapped examples that need packages in ‘Suggests’ in
+  `if(requireNamespace("pkgname")){}`.
+
+## cosmicsig 1.0.3
+
+- Applied tidyverse style to existing code
+
+- Added new exported function `possible_artifacts`, `rare_signatures`
+
+## cosmicsig 1.0.2
+
+- Added signatures renormalized for other genomes. The available genomes
+  are `GRCh37`, `GRCh38`, `mm9`, `mm10` and `rn6`
+
+## cosmicsig 1.0.1
+
+- Used GRCh38 signatures as the default for SBS96 and DBS78 in variable
+  `signature`, `COSMIC_v3.2`, `COSMIC_v3.1` and `COSMIC_v3.0`
+
+- Removed `genome` level structure from variables `signature`,
+  `COSMIC_v3.2`, `COSMIC_v3.1` and `COSMIC_v3.0`
+
+- Removed argument `cosmic_version` from exported function
+  `get_etiology`
+
+- Added explanation for “-E” in function `SBS96_ID_to_SBS192_ID`
+
+## cosmicsig 1.0.0
+
+- Added exported package data variable `signature`, `etiology`,
+  `COSMIC_v3.2`, `COSMIC_v3.1` and `COSMIC_v3.0`
+
+- Added exported function `get_etiology`, `SBS96_ID_to_SBS192_ID` and
+  automated tests
