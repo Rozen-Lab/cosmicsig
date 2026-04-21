@@ -1,6 +1,16 @@
 ## Submission
 
-This is a feature release. In this version:
+This is a resubmission of 1.3.0. The 1.3.0 submission was declined
+because the Alexandrov et al. 2020 reference on the package help page
+used
+
+    \href{https://doi.org/10.1038/s41586-020-1943-3}{doi:10.1038/s41586-020-1943-3}
+
+rather than the `\doi{}` Rd macro. In this version (1.3.1) the
+reference uses `\doi{10.1038/s41586-020-1943-3}` as requested.
+
+The substantive changes from 1.2.0, already described in the 1.3.0
+submission, are unchanged:
 
 * Added new exported package data variable `COSMIC_v3.5`, containing
   the mutational signature profiles from COSMIC v3.5 (November 2025).
@@ -9,8 +19,8 @@ This is a feature release. In this version:
 
 * Removed the `ICAMS` package from documentation dependencies.
   `cosmicsig` no longer depends on, imports, or suggests `ICAMS`.
-  This change was required by CRAN since `ICAMS` is currenlty
-  not in CRAN.
+  This change was required by CRAN since `ICAMS` is currently
+  not on CRAN.
 
 * Marked the `etiology` data object and the `get_etiology()` function
   as deprecated in their documentation. The etiology information is
@@ -33,27 +43,10 @@ All jobs run `R CMD check --as-cran` (via
 
 ## R CMD check results
 
-0 ERRORs, 0 WARNINGs across all five environments listed above.
-
-On CI the jobs run with `NOT_CRAN=true` (the r-lib/actions default),
-which skips the "CRAN incoming feasibility" check, so CI reports
-`Status: OK`. A local `R CMD check --as-cran` run on the built tarball
-(with the incoming check enabled) reports one informational NOTE:
-
-```
-Found the following URLs which should use \doi (with the DOI name only):
-  File 'cosmicsig.Rd':
-    https://doi.org/10.1038/s41586-020-1943-3
-```
-
-The DOI reference is deliberately written as
-`\href{https://doi.org/10.1038/s41586-020-1943-3}{doi:10.1038/s41586-020-1943-3}`
-rather than the `\doi{...}` macro. The `\doi{}` macro expands to an
-`\Sexpr[results=rd]{tools:::Rd_expr_doi(...)}` call that is not
-processed by all static HTML renderers (users reported seeing the
-literal Sexpr in online HTML snapshots of the help page). The
-`\href{}{}` form renders correctly as a hyperlink to the DOI in both
-the PDF and HTML help.
+0 ERRORs, 0 WARNINGs, 0 NOTEs across all five environments listed
+above, and 0 ERRORs / 0 WARNINGs / 0 NOTEs on a local
+`R CMD check --as-cran` run on the built tarball (with the CRAN
+incoming-feasibility check enabled).
 
 ## Downstream dependencies
 

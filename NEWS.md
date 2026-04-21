@@ -1,3 +1,8 @@
+# cosmicsig 1.3.1
+* Use the `\doi{}` Rd macro for the Alexandrov et al. 2020 reference on
+  the package help page, replacing the previous
+  `\href{https://doi.org/...}{doi:...}` form, as requested by CRAN.
+
 # cosmicsig 1.3.0
 * Added new exported package data variable `COSMIC_v3.5`.
 * Removed package ICAMS dependency (was a documentation dependency only).
