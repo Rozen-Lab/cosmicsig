@@ -14,3 +14,6 @@
 ^\.vscode$
 ^\.plans$
 ^CLAUDE\.md$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

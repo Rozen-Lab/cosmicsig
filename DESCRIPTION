@@ -21,7 +21,7 @@ Description: A data package with 2 main package variables: 'signature' and 'etio
     'cosmicsig' stands for COSMIC signatures. Please run ?'cosmicsig' for more
     information.
 License: GPL-3
-URL: https://github.com/Rozen-Lab/cosmicsig
+URL: https://github.com/Rozen-Lab/cosmicsig, https://rozen-lab.github.io/cosmicsig/
 BugReports: https://github.com/Rozen-Lab/cosmicsig/issues
 Language: en-US
 Encoding: UTF-8
