@@ -1,6 +1,12 @@
 #' Get the proposed etiology of mutational signatures.
 #'
 #' @description
+#'   **Deprecated.** The etiology information is no longer being updated.
+#'   It is not versioned at the COSMIC website and may not reflect
+#'   signatures added in recent COSMIC releases. For authoritative,
+#'   up-to-date etiologies consult
+#'   \url{https://cancer.sanger.ac.uk/signatures/} directly.
+#'
 #'   Return the known or hypothesized causes of mutational signatures.
 #'   The level of evidence supporting the proposed etiologies varies.
 #'   In addition, some proposed etiologies are more akin to associations than
@@ -15,13 +21,6 @@
 #' @return A character vector of the same length as \code{sig_id},
 #' each element of which is the etiology of the
 #' corresponding signature, if available, or else the empty string.
-#'
-#' @section Note:
-#' The etiology information is **deprecated** and is no longer being
-#' updated. It is not versioned at the COSMIC website and may not
-#' reflect signatures added in recent COSMIC releases. For authoritative,
-#' up-to-date etiologies consult
-#' \url{https://cancer.sanger.ac.uk/signatures/} directly.
 #'
 #' @seealso \code{\link{get_etiology}}
 #'

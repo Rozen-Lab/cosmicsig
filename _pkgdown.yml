@@ -1,4 +1,27 @@
 url: https://rozen-lab.github.io/cosmicsig/
 template:
   bootstrap: 5
+reference:
+- title: Package
+  contents:
+  - cosmicsig
+- title: Signature data (latest release)
+  contents:
+  - signature
+- title: Per-release signature snapshots
+  contents:
+  - starts_with("COSMIC_v")
+- title: Helpers
+  contents:
+  - SBS96_ID_to_SBS192_ID
+  - possible_artifacts
+  - rare_signatures
+- title: Deprecated
+  desc: >
+    These are no longer maintained and may be incomplete for recent
+    COSMIC releases. For authoritative, up-to-date etiologies consult
+    <https://cancer.sanger.ac.uk/signatures/> directly.
+  contents:
+  - etiology
+  - get_etiology
 
