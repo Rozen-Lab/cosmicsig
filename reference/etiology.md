@@ -1,7 +1,9 @@
 # List of mutational signatures' proposed etiology summarized from COSMIC, Catalogue Of Somatic Mutations In Cancer (v3.5 - November 2025)
 
-List of mutational signatures' proposed etiology summarized from COSMIC,
-Catalogue Of Somatic Mutations In Cancer (v3.5 - November 2025)
+**Deprecated.** The etiology information is no longer being updated. It
+is not versioned at the COSMIC website and may not reflect signatures
+added in recent COSMIC releases. For authoritative, up-to-date
+etiologies consult <https://cancer.sanger.ac.uk/signatures/> directly.
 
 ## Usage
 
@@ -29,14 +31,6 @@ which handles new signatures do not have an element in `etiology`.
 ## Source
 
 <https://cancer.sanger.ac.uk/signatures/>.
-
-## Deprecation note
-
-The etiology information is **deprecated** and is no longer being
-updated. It is not versioned at the COSMIC website and may not reflect
-signatures added in recent COSMIC releases. For authoritative,
-up-to-date etiologies consult <https://cancer.sanger.ac.uk/signatures/>
-directly.
 
 ## Examples
 
